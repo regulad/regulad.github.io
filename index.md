@@ -11,5 +11,6 @@ I also spend a ton of time playing Minecraft Java Edition with my friends and op
 * Minecraft: [`regulad`](https://namemc.com/profile/regulad.1)
 * Steam: [`regulad`](https://steamcommunity.com/id/regulad0)
 * Backloggery: [`regularperson`](https://backloggery.com/regularperson)
+
 ### Contact
 If you need to contact me, drop me a line on discord. `regulad#7959`
