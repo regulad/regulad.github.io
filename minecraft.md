@@ -1,6 +1,6 @@
 # reguSMP information
 Here is some more information on the server.
-![Smear Image](smear.png)
+![Smear Image](files/smear.png)
 ## Playing
 The server is strictly invite-only. 
 ## Rules

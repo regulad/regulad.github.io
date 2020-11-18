@@ -1,6 +1,6 @@
 # Welcome to regulad's pain train!
 Hiya! I'm regulad, a student doing stupid things at any moment!
-![Banner](banner.png)
+![Banner](files/banner.png)
 I spend most of my time studying or messing around with CLI enviorments messing around and having fun.
 I also spend a ton of time playing Minecraft Java Edition with my friends and operate a [server](minecraft).
 ### Internet Presenses
