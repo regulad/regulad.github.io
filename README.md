@@ -1,2 +1,2 @@
 # regulad.xyz
-Why did I do this? When did I get the idea that I needed a website? I have no fucking clue.
+Why did I do this? When did I get the idea that I needed a website? I have no fucking clue. This website is held together with hot glue and smelly objects, and will collapse with one more thing.
