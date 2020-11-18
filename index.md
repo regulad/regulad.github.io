@@ -10,15 +10,15 @@ regulad#7959 (`440468612365680650`)</li>
   <li>Discord server: 
 [click here](discord)
   <li>Reddit: 
-[`regularperson0001`](https://www.reddit.com/user/regularperson0001)</li>
+[regularperson0001](https://www.reddit.com/user/regularperson0001)</li>
   <li>Twitter: 
-[`regulad01`](https://twitter.com/regulad01)</li>
+[regulad01](https://twitter.com/regulad01)</li>
   <li>Instagram: 
-[`anirregularlad`](https://www.instagram.com/anirregularlad/)</li>
+[anirregularlad](https://www.instagram.com/anirregularlad/)</li>
   <li>Minecraft: 
-[`regulad`](https://namemc.com/profile/regulad.1)</li>
+[regulad](https://namemc.com/profile/regulad.1)</li>
   <li>Steam: 
-[`regulad`](https://steamcommunity.com/id/regulad0)</li>
+[regulad](https://steamcommunity.com/id/regulad0)</li>
   <li>Backloggery: 
-[`regularperson`](https://backloggery.com/regularperson)</li>
+[regularperson](https://backloggery.com/regularperson)</li>
 </ul>
