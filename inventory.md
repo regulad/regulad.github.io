@@ -77,7 +77,7 @@ Here is a record of some shiz I own and what is inside of them.
 
 ## Domains
 
-1. ### https://regulad.xyz/
+1. ### https://regulad.xyz[/](/pepperoni)
 1. ### https://reguladspaintrain.com/
 
 ## Minecraft Usernames
