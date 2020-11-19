@@ -1,8 +1,17 @@
-- name: Home
-  link: /
-- name: Sitemap
-  link: /sitemap
-- name: Presenses
-  link: /presense
-- name: Blog
-  link: /blog
+docs_list_title: Sitemap
+docs:
+
+- title: Home
+  url: /
+  
+- title: Minecraft
+  url: /minecraft
+
+- title: Inventory
+  url: /inventory
+
+- title: Presenses
+  url: /presense
+
+- title: Blog
+  url: /blog

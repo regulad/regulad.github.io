@@ -42,9 +42,11 @@
     
     <footer>
       <section id="footer">
-        <a href="/" class="btn">Home</a>
-        <a href="/sitemap" class="btn">Sitemap</a>
-        <a href="/presense" class="btn">Presenses</a>
+        <h3>{{ site.data.samplelist.docs_list_title }}</h3>
+        <br>
+        {% for item in site.data.samplelist.docs %}
+        <a href="{{ item.url }}" class="btn">{{ item.title }}</a>
+        {% endfor %}
         <br>
         <marquee>painfully developed by <a href="https://github.com/regulad">regulad</a>, using depreciated html elements and rickety markdown</marquee>
       </section>
