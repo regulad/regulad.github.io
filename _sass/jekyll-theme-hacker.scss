@@ -54,7 +54,6 @@ li {
 header {
   background: rgba(0, 0, 0, 0.1);
   width: 100%;
-  border-bottom: 1px dashed $conifer; //header;
   padding: 20px 0;
   margin: 0 0 40px 0;
 }
@@ -74,12 +73,6 @@ header h1 {
   @include media-max-width($container-max-width) {
     margin-left: 0;
   }
-}
-
-
-header h1:before {
-  content: "./ ";
-  font-size: 24px;
 }
 
 header h2 {
@@ -269,10 +262,18 @@ a {
 /* Footer & Shiz */
 
 
-#main_footer, #main_footer * {
+#main_footer {
   text-align: center;
   display: inline-block;
-  margin: 0;
+}
+
+#main_footer * {
+  text-align: center;
+  display: inline-block;
+}
+
+.horiz_line * {
+  border-bottom: 1px dashed $conifer; //header;
 }
 
 /* marquee */
