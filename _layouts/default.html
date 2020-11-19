@@ -40,20 +40,18 @@
       </section>
     </div>
     
-    <footer>
+    <footer id="default_footer">
       <div class="container">
-        <section id="default_footer">
-          <h4>{{ site.data.sitemap.docs_list_title }}</h4>
-          <ul>
-            {% for item in site.data.sitemap.docs %}
-            <li><a href="{{ item.url }}" class="btn">{{ item.title }}</a></li>
-            {% endfor %}
-          </ul>
-          <br>
-          <div class="marquee">
-            <p>developed by <a href="https://github.com/regulad">regulad</a></p>
-          </div>
-        </section>
+        <h4>{{ site.data.sitemap.docs_list_title }}</h4>
+        <ul>
+          {% for item in site.data.sitemap.docs %}
+          <li><a href="{{ item.url }}" class="btn">{{ item.title }}</a></li>
+          {% endfor %}
+        </ul>
+        <br>
+        <div class="marquee">
+          <p>developed by <a href="https://github.com/regulad">regulad</a></p>
+        </div>
       </div>
     </footer>
 
