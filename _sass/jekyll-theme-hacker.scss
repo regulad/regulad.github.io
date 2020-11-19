@@ -262,20 +262,10 @@ a {
 /* Footer & Shiz */
 
 
-#main_footer {
+#main_footer, #main_footer * {
   text-align: center;
   display: inline-block;
 }
-
-#main_footer * {
-  text-align: center;
-  display: inline-block;
-}
-
-.horiz_line * {
-  border-bottom: 1px dashed $conifer; //header;
-}
-
 /* marquee */
 
 .marquee {

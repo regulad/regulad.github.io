@@ -17,7 +17,7 @@
   </head>
 
   <body>
-    <div class="container">
+    <div class="container" style="border-bottom: 1px dashed $conifer">
       <header>
         <a id="a-title" href="{{ '/' | relative_url }}">
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
@@ -32,36 +32,26 @@
         {% endif %}
       </header>
     </div>
-    
-    <div class="horiz_line">
-      <br />
-    </div>
 
-    <div class="container">
+    <div class="container" style="border-bottom: 1px dashed $conifer">
       <section id="main_content">
         {{ content }}
       </section>
     </div>
-    
-    <div class="horiz_line">
-      <br />
-    </div>
   
-    <div class="container">
-      <section id="main_footer">
-        <footer>
-          <h4>{{ site.data.sitemap.docs_list_title }}</h4>
-          <ul>
-            {% for item in site.data.sitemap.docs %}
-            <li><a href="{{ item.url }}" class="btn">{{ item.title }}</a></li>
+    <div class="container" id="main_footer">
+      <footer>
+        <h4>{{ site.data.sitemap.docs_list_title }}</h4>
+        <ul>
+          {% for item in site.data.sitemap.docs %}
+          <li><a href="{{ item.url }}" class="btn">{{ item.title }}</a></li>
             {% endfor %}
-          </ul>
-          <br />
-          <div class="marquee">
-            <p>developed by <a href="https://github.com/regulad">regulad</a></p>
-          </div>
-        </footer>
-      </section>
+        </ul>
+        <br />
+        <div class="marquee">
+          <p>developed by <a href="https://github.com/regulad">regulad</a></p>
+        </div>
+      </footer>
     </div>
 
     {% if site.google_analytics %}
