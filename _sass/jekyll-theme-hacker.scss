@@ -268,9 +268,7 @@ a {
 
 /* Footer & Shiz */
 
-footer {
+#default_footer * {
   text-align: center;
-}
-footer ul {
-  display: inline;
+  display: inline-block;
 }
