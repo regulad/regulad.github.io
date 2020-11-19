@@ -94,5 +94,3 @@ Here is a record of some shiz I own and what is inside of them.
 1. ### Creality Ender 3 V2 FDM 3D Printer
   * Stock, could use a better extruder
   * Only used PLA
-
-#### [Sitemap](/sitemap)

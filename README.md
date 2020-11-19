@@ -15,5 +15,3 @@ I also spend a ton of time playing Minecraft Java Edition with my friends and op
 
 ### Contact
 If you need to contact me, drop me a line on discord. `regulad#7959`
-
-#### [Sitemap](/sitemap)

@@ -9,5 +9,3 @@ AntiCheatReloaded, AntiVPN, BedrockPlayerManager, BetterSleeping3, CleanMotD, Cl
 *Many of the features of each plugin have been disabled to maintain vanilla gameplay.*
 ## Server host
 The server currently uses [PebbleHost](https://pebblehost.com/), using a 7GB Premium plan.
-
-#### [Sitemap](/sitemap)
