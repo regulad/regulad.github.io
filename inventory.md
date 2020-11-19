@@ -1,5 +1,5 @@
 # Stuff I own
-Here is a record of some shiz I own and what is inside of them.
+Here is a record of some shiz I own and what is inside of them[.](/pepperoni)
 
 ## Computers
 
@@ -77,8 +77,8 @@ Here is a record of some shiz I own and what is inside of them.
 
 ## Domains
 
-1. ### https://regulad.xyz[/](/pepperoni)
-1. ### https://reguladspaintrain.com/
+1. ### regulad.xyz
+1. ### reguladspaintrain.com
 
 ## Minecraft Usernames
 
