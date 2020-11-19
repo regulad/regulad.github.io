@@ -32,6 +32,10 @@ body {
   margin: 10px auto;
 }
 
+.horiz_border {
+  border-bottom: 1px dashed $conifer; //header;
+}
+
 section {
   display: block;
   margin: 0 0 20px 0;
