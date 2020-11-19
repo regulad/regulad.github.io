@@ -39,22 +39,19 @@
         {{ content }}
       </section>
     </div>
-    
-    
-    <div class="container">
-      <footer id="default_footer">
+  
+    <footer id="default_footer">
+      <div class="container">
         <h4>{{ site.data.sitemap.docs_list_title }}</h4>
         <ul>
           {% for item in site.data.sitemap.docs %}
           <li><a href="{{ item.url }}" class="btn">{{ item.title }}</a></li>
           {% endfor %}
         </ul>
-        <br>
-        <div class="marquee">
-          <p>developed by <a href="https://github.com/regulad">regulad</a></p>
-        </div>
-      </footer>
-    </div>
+        <br />
+        <p class="marquee">developed by <a href="https://github.com/regulad">regulad</a></p>
+      </div>
+    </footer>
 
     {% if site.google_analytics %}
       <script>
