@@ -1,0 +1,8 @@
+- name: Home
+  link: /
+- name: Sitemap
+  link: /sitemap
+- name: Presenses
+  link: /presense
+- name: Blog
+  link: /blog
