@@ -18,8 +18,8 @@
 
   <body>
 
-    <header>
-      <div class="container">
+    <div class="container">
+      <header>
         <a id="a-title" href="{{ '/' | relative_url }}">
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
         </a>
@@ -31,8 +31,8 @@
           <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
         </section>
         {% endif %}
-      </div>
-    </header>
+      </header>
+   </div>
 
     <div class="container">
       <section id="main_content">
@@ -40,18 +40,22 @@
       </section>
     </div>
   
-    <footer id="default_footer">
-      <div class="container">
-        <h4>{{ site.data.sitemap.docs_list_title }}</h4>
-        <ul>
-          {% for item in site.data.sitemap.docs %}
-          <li><a href="{{ item.url }}" class="btn">{{ item.title }}</a></li>
-          {% endfor %}
-        </ul>
-        <br />
-        <p class="marquee">developed by <a href="https://github.com/regulad">regulad</a></p>
-      </div>
-    </footer>
+    <div class="container">
+      <section id="main_footer">
+        <footer>
+          <h4>{{ site.data.sitemap.docs_list_title }}</h4>
+          <ul>
+            {% for item in site.data.sitemap.docs %}
+            <li><a href="{{ item.url }}" class="btn">{{ item.title }}</a></li>
+            {% endfor %}
+          </ul>
+          <br />
+          <div class="marquee">
+            <p>developed by <a href="https://github.com/regulad">regulad</a></p>
+          </div>
+        </footer>
+      </section>
+    </div>
 
     {% if site.google_analytics %}
       <script>

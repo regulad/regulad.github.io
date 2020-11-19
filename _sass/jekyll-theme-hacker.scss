@@ -268,7 +268,8 @@ a {
 
 /* Footer & Shiz */
 
-#default_footer .btn {
+
+#main_footer, #main_footer * {
   text-align: center;
   display: inline-block;
   margin: 0;
