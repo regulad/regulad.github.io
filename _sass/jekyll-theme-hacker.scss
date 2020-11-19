@@ -238,12 +238,6 @@ hr {
   opacity: 0.6;
   background: url("../images/blacktocat.png") 0 0 no-repeat;
 }
-
-footer {
-    text-align: center;
-    display: inline;
-}
-
 /* Links
    a, a:hover, a:visited
 */
@@ -270,4 +264,13 @@ a {
 
 #a-title {
   text-decoration: none;
+}
+
+/* Footer & Shiz */
+
+footer {
+  text-align: center;
+ ul {
+  display: inline;
+  }
 }
