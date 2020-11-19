@@ -1,6 +1,6 @@
 # reguSMP information
 Here is some more information on the server.
-![Banner Ad](/files/smear.png)
+![Banner Ad](/images/smear.png)
 ## Playing
 The server is strictly invite-only. 
 ## Plugins
