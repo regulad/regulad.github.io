@@ -77,13 +77,17 @@ Here is a record of some shiz I own and what is inside of them.
 
 ## Domains
 
-1. ### regulad.xyz
-1. ### reguladspaintrain.com
+1. ### https://regulad.xyz/
+1. ### https://reguladspaintrain.com/
 
 ## Minecraft Usernames
 
 1. ### regulad
-2. ### regulass
+  * Name owned since 7/15/2020
+  * Account owned since 12/22/2013
+1. ### regulass
+  * Name owned since 8/17/2020
+  * Account owned since 5/19/2019
 
 ## Other
 
