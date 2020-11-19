@@ -42,9 +42,9 @@
     
     <footer>
       <section id="footer">
-        <h3>{{ site.data.samplelist.docs_list_title }}</h3>
+        <h3>{{ site.data.sitemap.docs_list_title }}</h3>
         <br>
-        {% for item in site.data.samplelist.docs %}
+        {% for item in site.data.sitemap.docs %}
         <a href="{{ item.url }}" class="btn">{{ item.title }}</a>
         {% endfor %}
         <br>
