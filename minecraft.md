@@ -1,6 +1,6 @@
 # reguSMP information
 Here is some more information on the server.
-![Banner Ad](/files/mcad.png)
+![Banner Ad](/files/smear.png)
 ## Playing
 The server is strictly invite-only. 
 ## Plugins
@@ -8,6 +8,6 @@ AntiCheatReloaded, AntiVPN, BedrockPlayerManager, BetterSleeping3, CleanMotD, Cl
 
 *Many of the features of each plugin have been disabled to maintain vanilla gameplay.*
 ## Server host
-The server currently uses [PebbleHost](https://pebblehost.com/).
+The server currently uses [PebbleHost](https://pebblehost.com/), using a 7GB Premium plan.
 
 #### [Sitemap](/sitemap)
