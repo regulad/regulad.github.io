@@ -41,16 +41,17 @@
     </div>
     
     <footer>
-      <section id="footer">
-        <h3>{{ site.data.sitemap.docs_list_title }}</h3>
-        <br>
-        {% for item in site.data.sitemap.docs %}
-        <a href="{{ item.url }}" class="btn">{{ item.title }}</a>
-        {% endfor %}
-        <br>
-        <marquee>painfully developed by <a href="https://github.com/regulad">regulad</a>, using depreciated html elements and rickety markdown</marquee>
-      </section>
+      <h3>{{ site.data.sitemap.docs_list_title }}</h3>
+      <br>
+      <ul>
+       {% for item in site.data.sitemap.docs %}
+       <li><a href="{{ item.url }}" class="btn">{{ item.title }}</a></li>
+       {% endfor %}
+      </ul>
+      <br>
+      <marquee>painfully developed by <a href="https://github.com/regulad">regulad</a>, using depreciated html elements and rickety markdown</marquee>
     </footer>
+    
     {% if site.google_analytics %}
       <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
