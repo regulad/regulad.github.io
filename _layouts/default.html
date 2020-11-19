@@ -17,8 +17,9 @@
   </head>
 
   <body>
-    <div class="container" style="border-bottom: 1px dashed $conifer">
-      <header>
+
+    <header>
+      <div class="container">
         <a id="a-title" href="{{ '/' | relative_url }}">
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
         </a>
@@ -30,15 +31,15 @@
           <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
         </section>
         {% endif %}
-      </header>
-    </div>
+      </div>
+    </header>
 
-    <div class="container" style="border-bottom: 1px dashed $conifer">
+    <div class="container">
       <section id="main_content">
         {{ content }}
       </section>
     </div>
-  
+    
     <div class="container" id="main_footer">
       <footer>
         <h4>{{ site.data.sitemap.docs_list_title }}</h4>
@@ -53,6 +54,7 @@
         </div>
       </footer>
     </div>
+
 
     {% if site.google_analytics %}
       <script>
