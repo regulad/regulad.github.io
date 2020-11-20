@@ -5,20 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">  
-    <link rel="manifest" href="/favicon/site.webmanifest">
-    <link rel="shortcut icon" href="/favicon/favicon.ico">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-config" content="/favicon/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
-{% seo %}
+    <div id="favicon_decleration">
+      <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">  
+      <link rel="manifest" href="/favicon/site.webmanifest">
+      <link rel="shortcut icon" href="/favicon/favicon.ico">
+      <meta name="msapplication-TileColor" content="#da532c">
+      <meta name="msapplication-config" content="/favicon/browserconfig.xml">
+      <meta name="theme-color" content="#ffffff">
+    </div>
+    {% seo %}
   </head>
-
+  <!--<p class="marquee">regulad's pain train</p>-->
   <body>
 
-    <div class="sticky_top">
+    <!--<div class="sticky_top">-->
       <div class="container">
         <header id="main_header">
           <section class="headings">
@@ -36,7 +38,7 @@
         </header>
       </div>
       <p class="horiz_line"></p>
-    </div>
+    <!--</div>-->
 
     <div class="container">
       <section id="main_content">
@@ -44,7 +46,7 @@
       </section>
     </div>
     
-    <div class="sticky_bottom">
+    <!--<div class="sticky_bottom">-->
       <p class="horiz_line"></p>
       <div class="container">
         <footer id="main_footer">
@@ -54,11 +56,11 @@
               {% for item in site.data.navigation.docs %}
                 <li><a href="{{ item.url }}" class="btn">{{ item.title }}</a></li>
               {% endfor %}
-          </ul>
+            </ul>
           </section>
         </footer>
       </div>
-    </div>
+    <!--</div>-->
 
     {% if site.google_analytics %}
       <script>
@@ -70,6 +72,6 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
-    
+
   </body>
 </html>

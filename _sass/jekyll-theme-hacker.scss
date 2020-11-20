@@ -33,7 +33,7 @@ body {
 
 section {
   display: block;
-  margin: 10px auto;
+  margin: 10px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color: $header;
   letter-spacing: -0.03em;
-  margin: 10px auto;
+  margin: 10px;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
                0 0 10px rgba(181, 232, 83, 0.1);
@@ -91,7 +91,7 @@ li {
 #main_content {
   width: 100%;
   -webkit-font-smoothing: antialiased;
-  padding: 50px; //* how the hell do i make this the same as header
+  //* i need to fix the sticky header
 }
 
 section img {
@@ -253,6 +253,7 @@ a {
 
 .headings, .headings * {
   display: inline;
+  margin: 10px;
 }
 
 /* marquee */
