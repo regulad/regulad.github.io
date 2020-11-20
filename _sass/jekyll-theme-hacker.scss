@@ -28,6 +28,7 @@ body {
   width: 90%;
   max-width: $container-max-width;
   margin: 15px auto;
+  background: $body-background url("../images/bkg.png") 0 0;
 }
 
 .horiz_border {
@@ -252,10 +253,6 @@ a {
 
 /* Navigation */
 
-#main_footer {
-  text-align: left;
-}
-
 #navigation {
   display: inline-block;
 }
@@ -313,11 +310,13 @@ a {
 .sticky_top {
   position: fixed;
   top: 0;
+  z-index: 999;
   width: 100%
 }
 
 .sticky_bottom {
   position: fixed;
   bottom: 0;
+  z-index: 999;
   width: 100%
 }
