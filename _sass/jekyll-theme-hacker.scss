@@ -29,7 +29,7 @@ body {
 .container {
   width: 90%;
   max-width: $container-max-width;
-  margin: 10px auto;
+  margin: 25px auto;
 }
 
 .horiz_border {
@@ -55,16 +55,9 @@ li {
    h2       - project description
 */
 
-#main_header {
-  width: 100%;
-  padding: 20px 0;
-  margin: 0 0 15px 0;
-}
-
 #main_header h1 {
   font-size: 30px;
   line-height: 1.5;
-  margin: 0 0 0 0;
   font-weight: bold;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color: $conifer;//$header;
