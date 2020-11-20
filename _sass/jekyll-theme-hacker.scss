@@ -59,8 +59,6 @@ header {
   width: 100%;
   padding: 20px 0;
   margin: 0 0 15px 0;
-  z-index: 999;
-  display: inline-block;
 }
 
 header h1 {
@@ -323,4 +321,18 @@ a {
     -webkit-transform: translateX(-100%);
     transform: translateX(-100%);
   }
+}
+
+/* Sticky */
+
+.sticky_header {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky_footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%
 }

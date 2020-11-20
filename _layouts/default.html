@@ -18,29 +18,19 @@
 
   <body>
 
-    <div class="container">
+    <div class="container" class="sticky_header">
       <header>
         <a id="a-title" href="{{ '/' | relative_url }}">
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
         </a>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
         {% if site.show_downloads %}
-          <br>
           <section id="downloads">
             <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
             <a href="{{ site.github.tar_url }}" class="btn">Download as .tar.gz</a>
             <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
           </section>
         {% endif %}
-        <br>
-        <section id="navigation">
-          <h4>{{ site.data.navigation.docs_list_title }}</h4>
-          <ul>
-            {% for item in site.data.navigation.docs %}
-            <li><a href="{{ item.url }}" class="btn">{{ item.title }}</a></li>
-              {% endfor %}
-          </ul> 
-        </section>
       </header>
     </div>
 
@@ -50,6 +40,19 @@
       <section id="main_content">
         {{ content }}
       </section>
+    </div>
+    
+    <p class="horiz_border"></p>
+    
+    <div class="container" class="sticky_footer">
+      <footer id="navigation">
+        <h4>{{ site.data.sitemap.docs_list_title }}</h4>
+        <ul>
+          {% for item in site.data.sitemap.docs %}
+            <li><a href="{{ item.url }}" class="btn">{{ item.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </footer>
     </div>
 
     {% if site.google_analytics %}
