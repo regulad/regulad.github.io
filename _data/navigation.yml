@@ -1,0 +1,17 @@
+docs_list_title: Navigation
+docs:
+
+- title: Home
+  url: /
+
+- title: Blog
+  url: /blog
+
+- title: Presenses
+  url: /presense
+
+- title: Inventory
+  url: /inventory
+  
+- title: Minecraft SMP
+  url: /minecraft
