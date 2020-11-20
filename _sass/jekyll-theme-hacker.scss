@@ -28,11 +28,6 @@ body {
   width: 90%;
   max-width: $container-max-width;
   margin: 15px auto;
-  background: $body-background url("../images/bkg.png") 0 0;
-}
-
-.horiz_border {
-  border-bottom: 1px dashed $conifer;
 }
 
 section {
@@ -212,7 +207,7 @@ hr {
 }
 
 .btn .icon {
-  display: inline-block;
+  display: block;
   width: 16px;
   height: 16px;
   margin: 1px 8px 0 0;
@@ -254,7 +249,7 @@ a {
 /* Navigation */
 
 #navigation {
-  display: inline-block;
+  display: inline;
 }
 
 /* marquee */
@@ -311,12 +306,22 @@ a {
   position: fixed;
   top: 0;
   z-index: 999;
-  width: 100%
+  width: 100%;
+  background: $body-background url("../images/bkg.png") 0 0;
 }
 
 .sticky_bottom {
   position: fixed;
   bottom: 0;
   z-index: 999;
-  width: 100%
+  width: 100%;
+  background: $body-background url("../images/bkg.png") 0 0;
+}
+
+/* Lines */
+
+.horiz_line {
+  border-bottom: 1px dashed $conifer;
+  margin: 0 0;
+  padding: 0 0;
 }
