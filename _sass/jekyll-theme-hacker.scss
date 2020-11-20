@@ -15,8 +15,6 @@ $container-max-width: 1000px;
 }
 
 body {
-  margin: 0;
-  padding: 0;
   background: $body-background url("../images/bkg.png") 0 0;
   color: $body-foreground;
   font-size: 16px;
@@ -29,7 +27,7 @@ body {
 .container {
   width: 90%;
   max-width: $container-max-width;
-  margin: 25px auto;
+  margin: 15px auto;
 }
 
 .horiz_border {
@@ -38,11 +36,11 @@ body {
 
 section {
   display: block;
-  margin: 0 0 20px 0;
+  margin: 10px auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  padding-bottom: 10px;
+  margin: 10px
 }
 
 li {
