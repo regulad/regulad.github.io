@@ -18,8 +18,8 @@
 
   <body>
 
-    <div class="container" class="sticky_header">
-      <header>
+    <div class="container">
+      <header id="main_header" class="sticky_header">
         <a id="a-title" href="{{ '/' | relative_url }}">
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
         </a>
@@ -44,14 +44,16 @@
     
     <p class="horiz_border"></p>
     
-    <div class="container" class="sticky_footer">
-      <footer id="navigation">
-        <h4>{{ site.data.sitemap.docs_list_title }}</h4>
-        <ul>
-          {% for item in site.data.sitemap.docs %}
-            <li><a href="{{ item.url }}" class="btn">{{ item.title }}</a></li>
-          {% endfor %}
+    <div class="container">
+      <footer id="main_footer" class="sticky_footer">
+        <section id="navigation"></section>
+          <h4>{{ site.data.navigation.docs_list_title }}</h4>
+          <ul>
+            {% for item in site.data.navigation.docs %}
+              <li><a href="{{ item.url }}" class="btn">{{ item.title }}</a></li>
+            {% endfor %}
         </ul>
+        </section>
       </footer>
     </div>
 
