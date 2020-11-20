@@ -7,7 +7,6 @@ $header: $conifer !default;
 $blockquote-color: $silver-chalice !default;
 $blockquote-border: $dove-grey !default;
 $container-max-width: 1000px;
-$background-image: $background-image;
 
 @mixin media-max-width($max-width) {
   @media (max-width: $max-width) {
@@ -16,7 +15,7 @@ $background-image: $background-image;
 }
 
 body {
-  background: $body-background $background-image 0 0;
+  background: $body-background url("../images/bkg.png") 0 0;
   color: $body-foreground;
   font-size: 16px;
   line-height: 1.5;
@@ -309,7 +308,7 @@ a {
   top: 0;
   z-index: 999;
   width: 100%;
-  background: $body-background $background-image 0 0;
+  background: $body-background url("../images/bkg.png") 0 0;
 }
 
 .sticky_bottom {
@@ -317,7 +316,7 @@ a {
   bottom: 0;
   z-index: 999;
   width: 100%;
-  background: $body-background $background-image 0 0;
+  background: $body-background url("../images/bkg.png") 0 0;
 }
 
 /* Lines */
