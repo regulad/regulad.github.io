@@ -35,17 +35,7 @@ body {
 
 section {
   display: block;
-  padding: 10px;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-weight: normal;
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: $header;
-  letter-spacing: -0.03em;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
-               0 0 5px rgba(181, 232, 83, 0.1),
-               0 0 10px rgba(181, 232, 83, 0.1);
+  padding: 10px 0;
 }
 
 li {
@@ -59,14 +49,8 @@ li {
 */
 
 #main_header h1 {
-  font-size: 30px;
   line-height: 1.5;
   font-weight: bold;
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: $conifer;//$header;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
-               0 0 5px rgba(181, 232, 83, 0.1),
-               0 0 10px rgba(181, 232, 83, 0.1);
 }
 
 #main_header h2 {
@@ -93,28 +77,41 @@ section img {
   max-width: 100%
 }
 
-#main_content h1 {
+//* Headings *//
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  color: $header;
+  letter-spacing: -0.03em;
+  margin: 0 auto;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
+               0 0 5px rgba(181, 232, 83, 0.1),
+               0 0 10px rgba(181, 232, 83, 0.1);
+}
+
+h1 {
   font-size: 30px;
 }
 
-#main_content h2 {
+h2 {
   font-size: 24px;
 }
 
-#main_content h3 {
+h3 {
   font-size: 18px;
 }
 
-#main_content h4 {
+h4 {
   font-size: 14px;
 }
 
-#main_content h5 {
+h5 {
   font-size: 12px;
   text-transform: uppercase;
 }
 
-#main_content h6 {
+h6 {
   font-size: 12px;
   text-transform: uppercase;
   color: #999;
@@ -249,6 +246,10 @@ a {
   display: inline;
 }
 
+#nav_btns, #nav_btns * {
+  text-align: right;
+}
+
 /* marquee */
 
 .marquee {
@@ -299,7 +300,7 @@ a {
 
 /* Sticky */
 
-.sticky_top {
+#sticky_top {
   position: fixed;
   top: 0;
   z-index: 999;
@@ -307,7 +308,7 @@ a {
   background: $body-background $background-image 0 0;
 }
 
-.sticky_bottom {
+#sticky_bottom {
   position: fixed;
   bottom: 0;
   z-index: 999;

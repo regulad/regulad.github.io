@@ -24,10 +24,9 @@ layout: compress
 
     <!--<div id="sticky_header">-->
       <div class="container">
-        <header id="main_header">
-          <section class="headings">
+        <header id="main_header" class="headings">
+          <section>
             <a id="a-title" href="{{ '/' | relative_url }}"><h1>{{ site.title | default: site.github.repository_name }}</h1></a>
-            <p> </p>
             <h2>{{ site.description | default: site.github.project_tagline }}</h2>
           </section>
           {% if site.show_downloads %}
@@ -51,14 +50,16 @@ layout: compress
     <!--<div id="sticky_footer">-->
       <hr>
       <div class="container">
-        <footer id="main_footer">
-          <section id="navigation" class="headings">
+        <footer id="main_footer" class="headings">
+          <section id="navigation">
             <h4>{{ site.data.navigation.docs_list_title }}</h4>
-            <ul>
-              {% for item in site.data.navigation.docs %}
-                <li><a href="{{ item.url }}" class="btn">{{ item.title }}</a></li>
-              {% endfor %}
-            </ul>
+            <div id="nav_btns">
+              <ul>
+                {% for item in site.data.navigation.docs %}
+                  <li><a href="{{ item.url }}" class="btn">{{ item.title }}</a></li>
+                {% endfor %}
+              </ul>
+            </div>
           </section>
         </footer>
       </div>
