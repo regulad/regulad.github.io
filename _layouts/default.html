@@ -18,16 +18,19 @@ layout: compress
       <meta name="msapplication-config" content="/favicon/browserconfig.xml">
       <meta name="theme-color" content="#ffffff">
     </div>
+    <div id="seo"></div>
     {% seo %}
   </head>
   <body>
 
-    <!--<div id="sticky_header">-->
+    <div class="sticky">
       <div class="container">
         <header id="main_header" class="headings">
           <section>
             <a id="a-title" href="{{ '/' | relative_url }}"><h1>{{ site.title | default: site.github.repository_name }}</h1></a>
+            {% if site.show_description %}
             <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+            {% endif %}
           </section>
           {% if site.show_downloads %}
             <section id="downloads">
@@ -39,7 +42,7 @@ layout: compress
         </header>
       </div>
       <hr>
-    <!--</div>-->
+    </div>
 
     <div class="container">
       <section id="main_content">
@@ -47,23 +50,23 @@ layout: compress
       </section>
     </div>
     
-    <!--<div id="sticky_footer">-->
+    <div class="sticky">
       <hr>
       <div class="container">
         <footer id="main_footer" class="headings">
           <section id="navigation">
-            <h4>{{ site.data.navigation.docs_list_title }}</h4>
-            <div id="nav_btns">
-              <ul>
-                {% for item in site.data.navigation.docs %}
-                  <li><a href="{{ item.url }}" class="btn">{{ item.title }}</a></li>
-                {% endfor %}
-              </ul>
-            </div>
-          </section>
+          <h4>{{ site.data.navigation.docs_list_title }}</h4>
+          <div id="nav_btns">
+            <ul>
+              {% for item in site.data.navigation.docs %}
+                <li><a href="{{ item.url }}" class="btn">{{ item.title }}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
+        </section>
         </footer>
       </div>
-    <!--</div>-->
+    </div>
 
     {% if site.google_analytics %}
       <script>

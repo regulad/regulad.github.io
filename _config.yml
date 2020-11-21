@@ -1,6 +1,7 @@
 theme: jekyll-theme-hacker
 title: Regulad's Pain Train
 show_downloads: false
+show_description: false
 
 # Sass/SCSS
 sass:
