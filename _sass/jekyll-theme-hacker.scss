@@ -242,21 +242,15 @@ a {
 
 /* Navigation */
 
-.headings, .headings * {
+#navigation, #navigation * {
   display: inline;
 }
 
-#nav_btns, #nav_btns * {
-  text-align: right;
-}
-
 /* marquee */
-
 .marquee {
   height:50px;
   overflow:hidden;
  }
-
  .marquee p {
   text-align:center;
   -moz-transform:translateX(100%);
@@ -266,7 +260,6 @@ a {
   -webkit-animation:scroll-left 2s linear infinite;
   animation:scroll-left 20s linear infinite
  }
-        
 @-moz-keyframes scroll-left {
   0% {
     -moz-transform: translateX(100%);
@@ -283,8 +276,7 @@ a {
   100% {
     -webkit-transform: translateX(-100%);
   }
-}
-        
+}      
 @keyframes scroll-left {
   0% {
     -moz-transform: translateX(100%);
