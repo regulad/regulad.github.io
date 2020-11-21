@@ -29,11 +29,10 @@ body {
 .container {
   width: 90%;
   max-width: $container-max-width;
-  margin: auto;
-  padding: 25px;
+  margin: 15px auto;
 }
 
-section {
+#main_content section {
   display: block;
   margin: 10px 0;
 }
@@ -244,7 +243,14 @@ a {
 
 #navigation, #navigation * {
   display: inline-block;
+}
+
+#navigation li {
   margin-right: 5px;
+}
+
+#navigation ul {
+  margin: 0 0;
 }
 
 /* marquee */
