@@ -8,7 +8,7 @@ When does a GIF go from being funny to being cringy? I believe that there are 3 
 
 A safe distance away | Close to the event horizon | Inside the singularity
 --- | --- | ---
-This category is for gifs that are legitemately funny and my cause a chuckle. | These are the gifs that your parents & teachers use trying to be relatable. | Aunt Sally learned how to use GIFHY, and she like minions! Take cover!
+This category is for gifs that are legitemately funny and may cause a chuckle. | These are the gifs that your parents & teachers use trying to be relatable. | Aunt Sally learned how to use GIFHY, and she like minions! Take cover!
 
 Going further right the GIFs will become cringier and lose all their comedic value. Any message they may be attmpting to convey is completely lost. Lets go through them one by one, shall we?
 
