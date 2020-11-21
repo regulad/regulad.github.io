@@ -1,11 +1,14 @@
-<!DOCTYPE html>
+---
+layout: compress
+---
+
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <div id="favicon_decleration">
+    <div id="favicon">
       <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
       <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
       <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">  
@@ -17,10 +20,9 @@
     </div>
     {% seo %}
   </head>
-  <!--<p class="marquee">regulad's pain train</p>-->
   <body>
 
-    <!--<div class="sticky_top">-->
+    <!--<div id="sticky_header">-->
       <div class="container">
         <header id="main_header">
           <section class="headings">
@@ -37,7 +39,7 @@
           {% endif %}
         </header>
       </div>
-      <p class="horiz_line"></p>
+      <hr>
     <!--</div>-->
 
     <div class="container">
@@ -46,8 +48,8 @@
       </section>
     </div>
     
-    <!--<div class="sticky_bottom">-->
-      <p class="horiz_line"></p>
+    <!--<div id="sticky_footer">-->
+      <hr>
       <div class="container">
         <footer id="main_footer">
           <section id="navigation" class="headings">

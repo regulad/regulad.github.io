@@ -1,3 +1,14 @@
 theme: jekyll-theme-hacker
 title: Regulad's Pain Train
 show_downloads: false
+
+# Sass/SCSS
+sass:
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
