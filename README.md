@@ -1,4 +1,4 @@
-# Welcome to regulad's pain train!
+# Welcome to the Pain Train!
 Hiya! I'm regulad, a student doing stupid things at any moment!
 
 ![Banner](/images/banner.png)

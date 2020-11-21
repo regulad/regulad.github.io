@@ -1,5 +1,5 @@
 # Stuff I own
-Here is a record of some shiz I own and what is inside of them[.](/pepperoni)
+Here is a record of some shiz I own and what is inside of them.
 
 ## Computers
 

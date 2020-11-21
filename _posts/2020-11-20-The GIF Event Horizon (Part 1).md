@@ -2,8 +2,6 @@
 layout: post
 author: regulad
 ---
-## The GIF Event Horizon (Part 1)
-
 When does a GIF go from being funny to being cringy? I believe that there are 3 categories of GIFs.
 
 A safe distance away | Close to the event horizon | Inside the singularity

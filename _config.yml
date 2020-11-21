@@ -1,7 +1,17 @@
 theme: jekyll-theme-hacker
 title: Regulad's Pain Train
+name: Regulad's Pain Train
+
+# Plugins
+plugins:
+  - github-pages
+
+# Elements
 show_downloads: false
 show_description: false
+google_analytics: G-YN9EE1LSN6
+post_show_tags: false
+post_show_author: false
 
 # Sass/SCSS
 sass:
@@ -11,5 +21,9 @@ sass:
 # - http://jch.penibelst.de/
 compress_html:
   clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
   ignore:
-    envs: development
+    envs: [local]
+  blanklines: false
+  startings: [html, head, body]
