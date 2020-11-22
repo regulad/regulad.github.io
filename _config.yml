@@ -8,10 +8,10 @@ plugins:
 
 # Elements
 show_downloads: false
-show_description: false
+show_description: true
 google_analytics: G-YN9EE1LSN6
 post_show_tags: false
-post_show_author: false
+post_show_author: true
 
 # Sass/SCSS
 sass:
