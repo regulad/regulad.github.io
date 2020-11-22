@@ -52,15 +52,17 @@ layout: compress
     <hr>
     <div class="container">
       <footer id="main_footer" class="headings">
-        <section id="navigation">
-          <h4>{{ site.data.navigation.docs_list_title }}</h4>
-          <div id="nav_btns">
-            <ul>
-              {% for item in site.data.navigation.docs %}
-                <li><a href="{{ item.url }}" class="btn">{{ item.title }}</a></li>
-              {% endfor %}
+        <section id="navlist">
+          <h4>{{ site.data.navlist.list_title }}</h4>
+          {% for item in site.data.navlist.nav %}
+            <br>
+            <h5>{{ item.title }}</h5>
+              <ul>
+                {% for entry in item.subfolderitems %}
+                  <li><a href="{{ entry.url }}" class="btn">{{ entry.page }}</a></li>
+                {% endfor %}
             </ul>
-          </div>
+          {% endfor %}
         </section>
       </footer>
     </div>

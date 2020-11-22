@@ -1,0 +1,16 @@
+list_title: Navigation
+nav:
+  - title: Main
+    subfolderitems:
+      - page: Home
+        url: /
+      - page: Blog
+        url: /blog
+      - page: Contact
+        url: /contact
+  - title: Pages
+    subfolderitems:
+      - page: Inventory
+        url: /inventory
+      - page: Minecraft SMP
+        url: /minecraft

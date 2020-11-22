@@ -43,7 +43,8 @@ ul {
   li {
     list-style-image:url('../images/bullet.png');
   }
-  margin: 3 0;
+  margin: 3;
+  padding: 0;
 }
 
 li {
@@ -177,7 +178,7 @@ hr {
 
 /* Navigation */
 
-#navigation, #navigation * {
+#navlist, #navlist * {
   display: inline-block;
   li {
     margin-right: 5px;
