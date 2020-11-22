@@ -1,7 +1,7 @@
 # reguSMP information
 Here is some more information on the server.
 
-![Banner Ad](/images/smear.png)
+![Banner Ad](https://i.imgur.com/H9A7DgP.png)
 
 ## Playing
 
