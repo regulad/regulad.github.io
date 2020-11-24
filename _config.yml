@@ -9,9 +9,12 @@ plugins:
 # Elements
 show_downloads: false
 show_description: true
+show_footer: true
 google_analytics: G-YN9EE1LSN6
 post_show_tags: false
 post_show_author: true
+color: dark
+favicon: /favicon
 
 # Sass/SCSS
 sass:
