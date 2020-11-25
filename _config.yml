@@ -11,7 +11,6 @@ show_header: true
 show_description: true
 show_footer: true
 google_analytics: G-YN9EE1LSN6
-color: dark
 post_show_author: true
 favicon: /favicon
 
