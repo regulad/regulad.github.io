@@ -28,3 +28,4 @@ compress_html:
     envs: [local]
   blanklines: false
   startings: [html, head, body]
+  
