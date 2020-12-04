@@ -90,6 +90,10 @@ Here is a record of some shiz I own and what is inside of them.
   * Name owned since 8/17/2020
   * Account owned since 5/19/2019
 
+## Games
+
+1. ### [Steam](https://steamcommunity.com/id/regulad0/games/?tab=all)
+
 ## Other
 
 1. ### Creality Ender 3 V2 FDM 3D Printer

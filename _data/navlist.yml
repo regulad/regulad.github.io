@@ -8,9 +8,5 @@ nav:
         url: /blog
       - page: Contact
         url: /contact
-  - title: Pages
-    subfolderitems:
       - page: Inventory
         url: /inventory
-      - page: Minecraft SMP
-        url: /minecraft
