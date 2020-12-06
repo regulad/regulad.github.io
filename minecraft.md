@@ -3,15 +3,13 @@ Here is some more information on the server.
 
 ![Banner Ad](https://i.imgur.com/ZOl43iu.png)
 
-## Plugins
+## Store
 
-AntiCheatReloaded, AntiVPN, BedrockPlayerManager, BetterSleeping3, CleanMotD*, ClearLag, CoreProtect, DiscordSRV, Essentials, EssentialsChat, EssentialsGeoIP, EssentialsSpawn, floodgate-bukkit, Geyser-Spigot, LuckPerms, PlaceholderAPI, ProtocolLib, TabList, Vault, ViaBackwards, ViaVersion, WorldBorder, WorldEdit
-
-*Many of the features of each plugin have been disabled to maintain vanilla gameplay.*
+If you would like to help out the sever and get some sweet deals, click [here](/mcstore)!
 
 ## Server host
 
-The server currently uses [PebbleHost](https://pebblehost.com/), using a 4GB Premium plan.
+The server currently uses a premium [PebbleHost](https://pebblehost.com/) plan.
 
 ## More
 
