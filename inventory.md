@@ -79,7 +79,7 @@ Here is a record of some shiz I own and what is inside of them.
 ## Domains
 
 1. ### regulad.xyz
-1. ### reguladspaintrain.com
+1. ### squirrelnet.xyz
 
 ## Minecraft Usernames
 
