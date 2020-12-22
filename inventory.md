@@ -80,6 +80,7 @@ Here is a record of some shiz I own and what is inside of them.
 
 1. ### regulad.xyz
 1. ### squirrelnet.xyz
+1. ### ratsincreased.xyz
 
 ## Minecraft Usernames
 
