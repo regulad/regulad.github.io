@@ -2,5 +2,6 @@
 New one every week! (at least)
 
 {% for post in site.posts %}
-* [{{ post.title }}]({{ post.url }})
+1. [{{ post.title }}]({{ post.url }})
+    * {{ post.excerpt }}
 {% endfor %}
