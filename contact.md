@@ -12,8 +12,7 @@ Here is a quick list of all my presenses on the internet.
 * Backloggery: [`regularperson`](https://backloggery.com/regularperson)
 
 ## Contact
-If you need to contact me directly, drop me a line on discord. `regulad#7959`
+If you need to contact me directly, look below.
 
-[Discord Server](/discord)
-
-#### I have crafted my online presene to be anoymous. I am regulad here, and somebody else in real life.
+* Discord `regulad#7959`
+* Email [`regulad@regulad.xyz`](mailto:regulad@regulad.xyz)
