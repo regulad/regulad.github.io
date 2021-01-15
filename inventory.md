@@ -106,9 +106,13 @@ Here is a record of some shiz I own and what is inside of them.
 
 ## Domains
 
-1. ### regulad.xyz
-1. ### squirrelnet.xyz
-1. ### ratsincreased.xyz
+1. ### [regulad.xyz](https://regulad.xyz/)
+1. ### [squirrelnet.xyz](https://squirrelnet.xyz/)
+1. ### [ratsincreased.xyz](https://ratsincreased.xyz/)
+1. ### [funkin.xyz](https://funkin.xyz/) (yes its just a redirect to [funkin.me](https://funkin.me) dont worty about it)
+1. ### [discordmoderators.xyz](https://discordmoderators.xyz/)
+
+#### can someone stop me from buying domains with the xyz tld thank
 
 ## Minecraft Usernames
 
