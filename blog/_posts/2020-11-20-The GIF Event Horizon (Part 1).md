@@ -1,6 +1,5 @@
 ---
 layout: post
-author: regulad
 ---
 When does a GIF go from being funny to being cringy? I believe that there are 3 categories of GIFs.
 

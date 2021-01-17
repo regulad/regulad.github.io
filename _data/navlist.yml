@@ -1,12 +1,20 @@
 list_title: Navigation
 nav:
-  - title: Main
+  - title: Pages
     subfolderitems:
       - page: Home
         url: /
-      - page: Blog
-        url: /blog
       - page: Contact
         url: /contact
+      - page: Posts
+        url: /posts
+  - title: Categories
+    subfolderitems:
+      - page: Blog
+        url: /blog
       - page: Inventory
         url: /inventory
+  - title: Redirects
+    subfolderitems:
+      - page: Discord
+        url: /discord

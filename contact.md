@@ -1,5 +1,5 @@
 # Contact
-Here is a quick list of all my presenses on the internet.
+Here is a quick list of all my presenses on the internet. (Notice: I am most certainly missing some)
 
 ## Socials
 * YouTube: [`regulad`](https://www.youtube.com/channel/UC-ina7ai3GdaJ2COJy5gBjA)

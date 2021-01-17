@@ -1,5 +1,5 @@
 ---
-permalink: /discord.html
+permalink: /discord
 ---
 
 <meta http-equiv="Refresh" content="0; url='https://discord.gg/xwH2Bw7P5b'" />

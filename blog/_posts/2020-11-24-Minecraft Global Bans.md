@@ -1,9 +1,6 @@
 ---
 layout: post
-author: regulad
 ---
-# Minecraft Global Bans: an honest review
-
 ## The facts
 
 Recently there has been a massive annoucement involving moderation in Minecraft (Bedrock), and it is sure to make it's way over to Minecraft Java Edition with the [move from a Mojang account to a Microsoft account](https://www.minecraft.net/en-us/article/java-edition-moving-house).
