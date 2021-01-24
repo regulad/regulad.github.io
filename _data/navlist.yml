@@ -6,12 +6,14 @@ nav:
         url: /
       - page: Contact
         url: /contact
-      - page: Posts
-        url: /posts
-  - title: Categories
+      - page: Archive
+        url: /archive
+  - title: Collections
     subfolderitems:
       - page: Blog
         url: /blog
+      - page: Minecraft
+        url: /minecraft
       - page: Inventory
         url: /inventory
   - title: Redirects
