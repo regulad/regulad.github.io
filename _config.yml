@@ -1,30 +1,14 @@
-remote_theme: regulad/hacker
-title: Regulad's Pain Train
+remote_theme: regulad/crust-tastic@main
+title: Regulad's Webzone
 name: Regulad's Pain Train
+author: regulad
 
 # Plugins
 plugins:
   - github-pages
 
 # Elements
-show_header: true
-show_footer: true
-google_analytics: G-YN9EE1LSN6
-post_show_author: false
+gtag: G-YN9EE1LSN6
+github_info: true
+navigation: subfolder
 favicon: /assets/favicon
-
-# Sass/SCSS
-sass:
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
-# HTML Compression
-# - http://jch.penibelst.de/
-compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
-  endings: all
-  ignore:
-    envs: [local]
-  blanklines: false
-  startings: [html, head, body]
-  
