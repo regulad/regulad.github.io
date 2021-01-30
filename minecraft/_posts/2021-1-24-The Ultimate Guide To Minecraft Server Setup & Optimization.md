@@ -15,18 +15,18 @@ You have two options if you want a playable 18.5+ TPS experience, [Premium](http
 * Dedicated Servers are also an option, but I'm focusing on Minecraft Servers in this article.
 
 ### 3. Choosing RAM
-For some reason, most hosts would have you assume that RAM is the most valuable resource when running a Minecraft server. This is only partially true. A faster CPU means you will use less of your memory, since the Java GC will function more efficient. Since I will be targetting version 1.16.4/5, I am going to be purchasing 5GB. For NA markets, this costs you US$11.25/mo. You can also upgrade to 6GB, which will run you US$13.50/mo.
+For some reason, most hosts would have you assume that RAM is the most valuable resource when running a Minecraft server. This is only partially true. A faster CPU means you will use less of your memory, since the Java GC will function more efficient. Since I will be targeting version 1.16.4/5, I am going to be purchasing 5GB. For NA markets, this costs you US$11.25/mo. You can also upgrade to 6GB, which will run you US$13.50/mo.
 
 ### 4. Purchasing your server
 1. Once you are at the [Product Configuration](https://billing.pebblehost.com/cart.php?a=confproduct&i=1) page, you need to make a few changes before purchasing your server.
 2. Automated Daily Reboots
-    * You should enable Automated Daily Reboots if you do not mind having a couple minutes of downtime.
-    1. ![Automated Daily Reboots](https://i.imgur.com/pphFXPh.png) Simply click "Yes."
+  * You should enable Automated Daily Reboots if you do not mind having a couple minutes of downtime.
+  1. ![Automated Daily Reboots](https://i.imgur.com/pphFXPh.png) Simply click "Yes."
 3. Advanced DDoS Mitigation
-    * Advanced DDoS Mitigation is a service that PebbleHost offers. It is basically just the Enterprise version of TCPShield.
-    * If you want *some* DDoS mitigation, you can just use the free plan on TCPShield.
-    * You should disable Advanced DDoS Mitigation unless you truly need it.
-    1. ![Automated Daily Reboots](https://i.imgur.com/MOSiilf.png) Simply click "Disabled (Unprotected)."
+  * Advanced DDoS Mitigation is a service that PebbleHost offers. It is basically just the Enterprise version of TCPShield.
+  * If you want *some* DDoS mitigation, you can just use the free plan on TCPShield.
+  * You should disable Advanced DDoS Mitigation unless you truly need it.
+  1. ![Automated Daily Reboots](https://i.imgur.com/MOSiilf.png) Simply click "Disabled (Unprotected)."
 4. Everything else can be left as-is.
 
 There are a couple of other "Addons" you can purchase, but in my opinion, these are all just a waste of money when you can set it up yourself. ![Addons](https://i.imgur.com/HUwy1jk.png)
@@ -54,9 +54,9 @@ Keep this tab open, you will need it soon.
 1. Go to [the Cloudflare dashboard](https://dash.cloudflare.com/). If you do not already have an account, go ahead and make one.
 2. After you have signed in/signed up, click "+ Add a Site."
 3. This process is self-explanatory. 
-    1. When it asks you to import DNS records, you can go ahead and delete them.
-    2. Configure your Nameservers, you can use the page you should have open on Namecheap.
-    3. Once your site is active, click "DNS." You will need this for the next step. ![DNS](https://i.imgur.com/AdF05IS.png)
+  1. When it asks you to import DNS records, you can go ahead and delete them.
+  2. Configure your Nameservers, you can use the page you should have open on Namecheap.
+  3. Once your site is active, click "DNS." You will need this for the next step. ![DNS](https://i.imgur.com/AdF05IS.png)
 
 #### 5b. Connecting your server
 There are two things you can do here, you can either directly connect the domain to the server with only DNS, or you can use a proxy service like ![TCPShield Favicon](https://www.tcpshield.com/favicon.ico) [TCPShield](https://www.tcpshield.com/).
@@ -94,7 +94,7 @@ You'll need 3 essential tools; you will use these to edit & pull files on the se
 1. [Notepad++](https://notepad-plus-plus.org/). This is a text editor.
 2. [7-Zip](https://www.7-zip.org/). This is an archive tool.
 3. [WinSCP](https://winscp.net/eng/index.php). This is an FTP client.
-    * You can also use [FileZilla](https://filezilla-project.org/) client too, but this is one case where I would recommend the closed source tool over the open source one.
+  * You can also use [FileZilla](https://filezilla-project.org/) client too, but this is one case where I would recommend the closed source tool over the open source one.
 
 ### 7. Get Information
 You should have information on hand, you will be using this a lot.
@@ -106,28 +106,28 @@ You should have information on hand, you will be using this a lot.
 ### 8. Configure Tools
 You should setup your tools before you need them. **Notice: These instructions are for Windows machines. You are on your own for macOS, but if you need help on Linux, drop me a line.**
 1. Setup NP++
-    1. Create a `.txt` file and open properties.
-    2. Look for "Opens with:" then click "Change..." ![Change...](https://i.imgur.com/jT2vMbv.png)
-    3. Select NP++ ![NP++](https://i.imgur.com/SRKhxQF.png)
-        * If you do not see NP++, you should scroll down to "Look for another app on this PC," then locate the NP++ executable, normally in "Program Files" or "Program Files (x86)."
-    * After this, any `.txt` file you open will open in NP++ instead of Notepad.
+  1. Create a `.txt` file and open properties.
+  2. Look for "Opens with:" then click "Change..." ![Change...](https://i.imgur.com/jT2vMbv.png)
+  3. Select NP++ ![NP++](https://i.imgur.com/SRKhxQF.png)
+    * If you do not see NP++, you should scroll down to "Look for another app on this PC," then locate the NP++ executable, normally in "Program Files" or "Program Files (x86)."
+  * After this, any `.txt` file you open will open in NP++ instead of Notepad.
 2. Setup 7z
-    1. Open 7zFM. (Just look up "7-Zip File Manager" in Windows Search)
-    2. Click "Tools," then "Options..."
-    3. Click the left "+" button. ![7-Zip File](https://i.imgur.com/9fegrQO.png)
-    4. Click "Apply."
-    5. Close 7z
+  1. Open 7zFM. (Just look up "7-Zip File Manager" in Windows Search)
+  2. Click "Tools," then "Options..."
+  3. Click the left "+" button. ![7-Zip File](https://i.imgur.com/9fegrQO.png)
+  4. Click "Apply."
+  5. Close 7z
 3. Setup WinSCP and connect to your server.
-    1. Open WinSCP
-    2. Click on "New Session," unless the Login dialogue is already open. ![Login](https://i.imgur.com/D1PKt4R.png)
-    3. Put in your credentials. ![Login, Populated](https://i.imgur.com/KoEQmom.png)
-        1. PebbleHost FTP Address, (normally looks like `na000.pebblehiost.com`) goes into the "Host name:" field.
-        2. 21 goes into the "Port number:" field.
-        3. PebbleHost Panel Email and PebbleHost Server ID goes into the "User name:" field. (normally looks like `{email}.{serverid}`)
-        4. PebbleHost Panel Password goes into the "Password:" field.
-    4. Click "Save," then "Ok."
-    5. Re-enter your password and connect.
-    6. Keep this window open, you'll need it later.
+  1. Open WinSCP
+  2. Click on "New Session," unless the Login dialogue is already open. ![Login](https://i.imgur.com/D1PKt4R.png)
+  3. Put in your credentials. ![Login, Populated](https://i.imgur.com/KoEQmom.png)
+    1. PebbleHost FTP Address, (normally looks like `na000.pebblehiost.com`) goes into the "Host name:" field.
+    2. 21 goes into the "Port number:" field.
+    3. PebbleHost Panel Email and PebbleHost Server ID goes into the "User name:" field. (normally looks like `{email}.{serverid}`)
+    4. PebbleHost Panel Password goes into the "Password:" field.
+  4. Click "Save," then "Ok."
+  5. Re-enter your password and connect.
+  6. Keep this window open, you'll need it later.
 
 ## Minecraft Setup & Optimization
 Alright, your server is up, your tools are installed and setup, and we are ready to get to work.
@@ -145,7 +145,7 @@ You can download it from [their CI](https://ci.codemc.io/job/YatopiaMC/job/Yatop
 At the time of writing, the most stable build is #1. The filename is `yatopia-1.16.5-paperclip-b1.jar`. This will (of course) change with time, so expect it to be just a little different.
 
 1. Upload your JAR to the server using the FTP(S) window you should have open.
-2. Change the JAR to you to the name of the JAR you just uploaded on the main panel. ![Jarfile Dialogue](https://i.imgur.com/UE2MBUG.png)
+2. Change the JAR to you to the name of the JAR you just uploaded on the main panel. ![Jar file Dialogue](https://i.imgur.com/UE2MBUG.png)
 3. Click "Save" at the bottom of the page.
 
 ### 11. Server Software Optimization

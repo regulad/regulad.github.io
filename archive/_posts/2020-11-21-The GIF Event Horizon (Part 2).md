@@ -1,13 +1,13 @@
 ---
 layout: post
 ---
-When does a GIF go from being funny to being cringy? I believe that there are 3 categories of GIFs.
+When does a GIF go from being funny to being cringe? I believe that there are 3 categories of GIFs.
 
 A safe distance away | Close to the event horizon | Inside the singularity
 --- | --- | ---
-This category is for gifs that are legitemately funny and may cause a chuckle. | These are the gifs that your parents & teachers use trying to be relatable. | Aunt Sally learned how to use GIFHY, and she like minions! Take cover!
+This category is for gifs that are legitimately funny and may cause a chuckle. | These are the gifs that your parents & teachers use trying to be relatable. | Aunt Sally learned how to use GIFHY, and she like minions! Take cover!
 
-Going further right the GIFs will become cringier and lose all their comedic value. Any message they may be attmpting to convey is completely lost. Lets go through them one by one, shall we?
+Going further right the GIFs will become cringer and lose all their comedic value. Any message they may be attempting to convey is completely lost. Lets go through them one by one, shall we?
 
 Today lets cover the second category,
 
@@ -27,4 +27,4 @@ Here are some more examples:
 
 <div class="tenor-gif-embed" data-postid="10912836" data-share-method="host" data-width="60%" data-aspect-ratio="1.0"><a href="https://tenor.com/view/dog-waves-hi-cute-puppy-gif-10912836">Dog Waves GIF</a> from <a href="https://tenor.com/search/dog-gifs">Dog GIFs</a></div><script type="text/javascript" async src="https://tenor.com/embed.js"></script>
 
-These GIFs do away with most of the comedic value and focus on conveying a message. Many of these are quite high-fidelity, and do great as a compliemnt to a conversation. Overall, I rate GIFs in this category a `6/10`. You can go far, far worse. Speaking of far worse...
+These GIFs do away with most of the comedic value and focus on conveying a message. Many of these are quite high-fidelity, and do great as a compliment to a conversation. Overall, I rate GIFs in this category a `6/10`. You can go far, far worse. Speaking of far worse...
