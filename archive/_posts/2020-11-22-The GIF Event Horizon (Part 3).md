@@ -1,6 +1,3 @@
----
-layout: post
----
 When does a GIF go from being funny to being cringe? I believe that there are 3 categories of GIFs.
 
 A safe distance away | Close to the event horizon | Inside the singularity

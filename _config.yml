@@ -1,7 +1,25 @@
-remote_theme: regulad/crust-tastic@main
+# SEO
 title: Regulad's Webzone
-name: Regulad's Pain Train
+name: Regulad's Webzome
 author: regulad
+
+# Jekyll
+remote_theme: regulad/crust-tastic@v1.0
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "drafts"
+    values:
+      layout: "post"
 
 # Plugins
 plugins:

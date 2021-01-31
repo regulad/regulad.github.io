@@ -1,9 +1,5 @@
----
-layout: post
----
 * ![Dingus-Server](https://i.imgur.com/4tgfjc6.jpg)
-* About:
-  * I put together this computer using spare parts on a $150 budget. I had almost everything laying around, but the memory and case had to be purchased from my local Micro Center.
+* I put together this computer using spare parts on a $150 budget. I had almost everything laying around, but the memory and case had to be purchased from my local Micro Center.
 * Specs:
   * Corsair Carbide 200R
   * EVGA 550 B3

@@ -1,6 +1,3 @@
----
-layout: post
----
 ## How to setup & optimize your server for maximum performance without greatly changing vanilla gameplay
 Alright, imagine you want to start a "vanilla" Minecraft server with your 4-7 pals. You have $15 in pocket money now, and you are willing to spend US$10-15 per month. Let us get into it.
 
@@ -35,8 +32,8 @@ You are ready to hit that big ol' buy button. ![Continue](https://i.imgur.com/PT
 
 Great, now we have a server on PebbleHost that we are ready to work with. ![Server](https://i.imgur.com/VurPhnc.png)
 
-### 5. (Optional) Buying & setting up a domain.
-You do not need to buy a domain, but it will make you look a lot more professional, as well as making it easier for your players to connect. While PebbleHost offers [a free "subdomain"](https://help.pebblehost.com/en/article/how-to-change-your-server-ip-1wqvbyw/), it reeks of crappy sites like Aternos and Minehut and I do not reccomend you use it.
+### 5. (Optional) Buying & setting up a domain
+You do not need to buy a domain, but it will make you look a lot more professional, as well as making it easier for your players to connect. While PebbleHost offers [a free "subdomain"](https://help.pebblehost.com/en/article/how-to-change-your-server-ip-1wqvbyw/), it reeks of crappy sites like Aternos and Minehut and I do not recommend you use it.
 
 On registrars like ![Namecheap Favicon](https://www.namecheap.com/assets/img/nc-icon/favicon.ico) [Namecheap](https://www.namecheap.com/), domains are dirt cheap. `.xyz` TLD domains go for US$1/yr. Hmm, wonder why this site is `regulad.xyz`.
 
@@ -252,6 +249,6 @@ proxy-port=
 ```
 
 ## Plugins
-Join me next time as we go through the "joy" that is installing & configuring plugins!
+I have another guide on installing plugins: look [here](/minecraft/2021/01/31/The-Ultimate-Guide-To-Minecraft-Server-Plugin-Installation.html).
 
 ###### If you need any help, feel free to [contact me](/contact)

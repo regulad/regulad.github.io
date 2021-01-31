@@ -1,10 +1,5 @@
----
-layout: post
----
 * ![Stalactite](https://i.imgur.com/iuKRV1P.jpg)
-* About:
-  * Stalactite, my long term Desktop. It has been with me for 3 years, going through frequent upgrades. The most recent upgrade was moving from a Ryzen 2600 to a Ryzen 5600X
-  * It is my main computer and I use it for just about everything you could use a decent computer for, including PC gaming (Cyberpunk is great), Productivity Work, Video Editing, and maybe Crypto mining. 😉
+* Stalactite, my long term Desktop. It has been with me for 3 years, going through frequent upgrades.
 * Specs:
   * Fractal Design Meshify C
   * Seasonic FOCUS GX-750

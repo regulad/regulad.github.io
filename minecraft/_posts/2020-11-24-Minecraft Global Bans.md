@@ -1,6 +1,3 @@
----
-layout: post
----
 ## The facts
 
 Recently there has been a massive announcement involving moderation in Minecraft (Bedrock), and it is sure to make it's way over to Minecraft Java Edition with the [move from a Mojang account to a Microsoft account](https://www.minecraft.net/en-us/article/java-edition-moving-house).

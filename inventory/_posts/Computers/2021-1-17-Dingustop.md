@@ -1,9 +1,5 @@
----
-layout: post
----
 * ![Dingustop](https://i.imgur.com/hU3jZ38.jpg)
-* About:
-  * Nothing special about this computer. It... turns on. It runs software. It is useful, sometimes. That is all.
+* Nothing special about this computer. It... turns on. It runs software. It is useful, sometimes. That is all.
 * Model:
   * Dell Inspiron 13 5379 2-in-1
 * Specs:
