@@ -1,9 +1,9 @@
 ---
-permalink: /discord
+redirect-from:
+  - /discord
+redirect-to:
+  - https://discord.gg/xwH2Bw7P5b
 ---
-
-<meta http-equiv="Refresh" content="0; url='https://discord.gg/xwH2Bw7P5b'" />
-
 # Discord
 
 ### You are now being redirected.... spooky!

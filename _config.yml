@@ -4,7 +4,7 @@ name: Regulad's Webzome
 author: regulad
 
 # Jekyll
-remote_theme: regulad/crust-tastic@v1.0
+remote_theme: regulad/crust-tastic@v1.1
 
 # Defaults
 defaults:
@@ -30,3 +30,17 @@ gtag: G-YN9EE1LSN6
 github_info: true
 navigation: subfolder
 favicon: /assets/favicon
+
+# Optimization
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: [html, head, body]
+
+sass:
+  style: compressed
