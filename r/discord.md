@@ -1,8 +1,5 @@
 ---
-redirect-from:
-  - /discord
-redirect-to:
-  - https://discord.gg/xwH2Bw7P5b
+redirect-to: https://discord.gg/xwH2Bw7P5b
 ---
 # Discord
 
