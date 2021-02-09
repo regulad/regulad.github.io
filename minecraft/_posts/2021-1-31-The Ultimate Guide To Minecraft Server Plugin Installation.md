@@ -27,6 +27,6 @@ Once you have your `.jar` file downloaded, just upload it to the `/plugins` fold
 ### 5. Configuring 
 After starting/restarting your server with the new plugin installed, the plugin will crate a folder in `/plugins` where it will store it's data.
 
-I'll make a page on recommended plugin configs later. Toodles!
+Check out [this](/minecraft/2021/02/04/The-Ultimate-Guide-To-Minecraft-Server-Plugin-Configuration.html) page on configuration. Toodles!
 
 ###### If you need any help, feel free to [contact me](/contact)

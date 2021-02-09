@@ -6,10 +6,12 @@ entries:
         url: /
       - page: Contact
         url: /contact
-      - page: Archive
-        url: /archive
+      - page: Donation
+        url: /donate
   - title: Collections
     subfolderitems:
+      - page: Archive
+        url: /archive
       - page: Blog
         url: /blog
       - page: Minecraft

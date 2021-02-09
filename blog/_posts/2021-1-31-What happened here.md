@@ -1,1 +1,0 @@
-So, I've decided to nuke my current blog posts. Why? Well, they are kinda shit. Everything that was here before has been moved to [The Archive](/archive). If for some reason you want to read what was here before, go look at that.

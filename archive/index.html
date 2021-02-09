@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<h1>Archived</h1>
+<p>These are posts that I'm not too proud of anymore, but I don't want to delete them, for sake of archival.</p>
+<ol>
+{% for post in site.categories.archive %}
+  <li><h3><a href="{{ post.url }}">{{ post.title }}</a></h3></li>
+{% endfor %}
+</ol>
+<h1>All Posts</h1>
+<p>This is just every post on this website, no sorting past some basic categories.</p>
+<ol>
+{% for category in site.categories %}
+  {% capture category_name %}{{ category | first }}{% endcapture %}
+  <li>
+    <h2><a href="/{{ category_name }}">{{ category_name }}</a></h2>
+    <ol>
+    {% for post in site.categories[category_name] %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+    </ol>
+  </li>
+{% endfor %}
+</ol>

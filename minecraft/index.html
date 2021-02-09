@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<h1>Minecraft Writeups</h1>
+<p>Here are some of my shitty writeups about Minecraft & shiz. Maybe you can learn something from them, maybe not.</p>
+<h2>Entries</h2>
+<ol>
+{% for post in site.categories.minecraft %}
+  <li><h3><a href="{{ post.url }}">{{ post.title }}</a></h3></li>
+{% endfor %}
+</ol>
