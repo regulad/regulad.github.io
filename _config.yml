@@ -4,7 +4,7 @@ name: Regulad's Webzome
 author: regulad
 
 # Jekyll
-remote_theme: regulad/crust-tastic@v1.1
+remote_theme: regulad/crust-tastic@v1.2
 
 # Defaults
 defaults:
@@ -23,6 +23,10 @@ defaults:
 
 # Plugins
 plugins:
+  - github-pages
+  - jekyll-redirect-from
+
+whitelist:
   - github-pages
 
 # Elements

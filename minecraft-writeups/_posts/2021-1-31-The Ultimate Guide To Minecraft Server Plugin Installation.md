@@ -1,5 +1,5 @@
 ## How to install plugins on your Spigot Minecraft Server
-#### If you don't already have a server, check out [this](/minecraft/2021/01/24/The-Ultimate-Guide-To-Minecraft-Server-Setup-&-Optimization.html)
+#### If you don't already have a server, check out [this](/minecraft-writeups/2021/01/24/The-Ultimate-Guide-To-Minecraft-Server-Setup-&-Optimization.html)
 Note: This guide doesn't go as deep as the last one. PebbleHost has a [Discord Server](https://discord.gg/pebblehost) if you need any help.
 
 ### 1. Setting up tools
@@ -27,6 +27,6 @@ Once you have your `.jar` file downloaded, just upload it to the `/plugins` fold
 ### 5. Configuring 
 After starting/restarting your server with the new plugin installed, the plugin will crate a folder in `/plugins` where it will store it's data.
 
-Check out [this](/minecraft/2021/02/04/The-Ultimate-Guide-To-Minecraft-Server-Plugin-Configuration.html) page on configuration. Toodles!
+Check out [this](/minecraft-writeups/2021/02/04/The-Ultimate-Guide-To-Minecraft-Server-Plugin-Configuration.html) page on configuration. Toodles!
 
 ###### If you need any help, feel free to [contact me](/contact)

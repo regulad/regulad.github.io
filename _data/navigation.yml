@@ -8,14 +8,16 @@ entries:
         url: /contact
       - page: Donation
         url: /donate
+      - page: Games
+        url: /games
   - title: Collections
     subfolderitems:
       - page: Archive
         url: /archive
       - page: Blog
         url: /blog
-      - page: Minecraft
-        url: /minecraft
+      - page: Minecraft Writeups
+        url: /minecraft-writeups
       - page: Inventory
         url: /inventory
   - title: Redirects

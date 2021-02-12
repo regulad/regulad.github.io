@@ -1,0 +1,10 @@
+<ul>
+  {% for category in site.categories %}
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <li>
+      <h2><a href="/{{ category_name }}">{{ category_name }}</a></h2>
+      <hr>
+      {% include elements/posts/category.html category=category_name %}
+    </li>
+  {% endfor %}
+</ul>

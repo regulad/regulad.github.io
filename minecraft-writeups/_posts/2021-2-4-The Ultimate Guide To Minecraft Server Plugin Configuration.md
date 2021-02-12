@@ -1,5 +1,5 @@
 # How to configure plugins on your Spigot Minecraft Server
-#### If you don't already have a server, check out [this](/minecraft/2021/01/24/The-Ultimate-Guide-To-Minecraft-Server-Setup-&-Optimization.html)
+#### If you don't already have a server, check out [this](/minecraft-writeups/2021/01/24/The-Ultimate-Guide-To-Minecraft-Server-Setup-&-Optimization.html)
 Note: This guide doesn't go as deep as the last one. PebbleHost has a [Discord Server](https://discord.gg/pebblehost) if you need any help.
 
 ### 1. Setting up tools

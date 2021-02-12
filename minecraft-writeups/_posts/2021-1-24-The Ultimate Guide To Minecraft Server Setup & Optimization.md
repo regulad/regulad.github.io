@@ -249,6 +249,6 @@ proxy-port=
 ```
 
 ## Plugins
-I have another guide on installing plugins: look [here](/minecraft/2021/01/31/The-Ultimate-Guide-To-Minecraft-Server-Plugin-Installation.html).
+I have another guide on installing plugins: look [here](/minecraft-writeups/2021/01/31/The-Ultimate-Guide-To-Minecraft-Server-Plugin-Installation.html).
 
 ###### If you need any help, feel free to [contact me](/contact)
