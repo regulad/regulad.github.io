@@ -4,7 +4,7 @@ name: Regulad's Webzome
 author: regulad
 
 # Jekyll
-remote_theme: regulad/crust-tastic@v1.2
+remote_theme: regulad/crust-tastic@v1.3
 
 # Defaults
 defaults:

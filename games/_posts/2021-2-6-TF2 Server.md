@@ -3,7 +3,9 @@ permalink: /games/tf2
 redirect_from: /tf2
 ---
 ## MOTD
-<iframe src="https://www.regulad.xyz/motd" style="width: 907px; height: 645px;"></iframe>
+<div class="iframe-wrapper" style="position: relative; width: 100%; height: 100%; padding-top: 71.11%">
+  <iframe src="https://www.regulad.xyz/motd" style="position: absolute; left: 0; top: 0; width: 100%; height: 100%;"></iframe>
+</div>
 
 ## Connect
 * IP: `tf2.regulad.xyz:29105`
