@@ -1,50 +1,18 @@
 # SEO
 title: Regulad's Webzone
-name: Regulad's Webzome
 author: regulad
 
 # Jekyll
-remote_theme: regulad/crust-tastic@v1.3
-
-# Defaults
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  -
-    scope:
-      path: ""
-      type: "drafts"
-    values:
-      layout: "post"
+remote_theme: regulad/crust-tastic@v2.0
 
 # Plugins
 plugins:
   - github-pages
   - jekyll-redirect-from
 
-whitelist:
-  - github-pages
-
 # Elements
 gtag: G-YN9EE1LSN6
+gtranslate: true
 github_info: true
 navigation: subfolder
 favicon: /assets/favicon
-
-# Optimization
-compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
-  endings: all
-  ignore:
-    envs: [local]
-  blanklines: false
-  profile: false
-  startings: [html, head, body]
-
-sass:
-  style: compressed
