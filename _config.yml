@@ -3,7 +3,7 @@ title: Regulad's Webzone
 author: regulad
 
 # Jekyll
-remote_theme: regulad/crust-tastic@v3.1
+remote_theme: regulad/crust-tastic@v3.0
 
 # Plugins
 plugins:
