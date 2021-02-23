@@ -20,7 +20,7 @@ crust_tastic:
   footer:
     navigation: subfolder # See below.
     github_link: true # Controls the GitHub link at the bottom of the page.
-    google_translate: true # Controls google translate
+    # Broken ATM: google_translate: true # Controls google translate
 
 # Elements
 gtag: G-YN9EE1LSN6

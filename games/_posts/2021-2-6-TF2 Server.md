@@ -2,6 +2,5 @@
 permalink: /games/tf2
 redirect_from: /tf2
 ---
-<div class="iframe-wrapper">
-  <iframe src="https://www.regulad.xyz/motd"></iframe>
-</div>
+## MOTD:
+{% include elements/posts/iframe.html src="https://www.regulad.xyz/motd" %}
