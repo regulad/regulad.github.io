@@ -16,6 +16,8 @@ This is my vanilla-ish SMP. Not too many gameplay-altering plugins, but enough t
 
 You'll need to add yourself to [my Discord server](/r/discord) to link your account and join.
 
+{% include elements/integrations/discord.html id="730908012851757078" %}
+
 ## Dynmap
 
 {% include elements/iframe.html src="http://smp.regulad.xyz:8078/" %}
