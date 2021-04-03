@@ -15,4 +15,4 @@ Here is a quick list of all my presences on the internet. (Notice: I am most cer
 If you need to contact me directly, look below.
 
 * Discord `regulad#7959`
-* Email [`regulad@regulad.xyz`](mailto:regulad@regulad.xyz)
+* Email [`regulad@outlook.com`](mailto:regulad@outlook.com)
