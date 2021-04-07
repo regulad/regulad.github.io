@@ -3,7 +3,7 @@ title: Regulad's Webzone
 author: regulad
 
 # Jekyll
-remote_theme: regulad/crust-tastic@v3.0
+remote_theme: regulad/crust-tastic@v3.1
 
 # Plugins
 plugins:
@@ -20,11 +20,5 @@ crust_tastic:
   footer:
     navigation: subfolder # See below.
     github_link: true # Controls the GitHub link at the bottom of the page.
-    # Broken ATM: google_translate: true # Controls google translate
-
-# Elements
-gtag: G-YN9EE1LSN6
-gtranslate: true
-github_info: true
-navigation: true
-favicon: /assets/favicon
+    
+    google_translate: true # Controls google translate
