@@ -24,3 +24,8 @@ entries:
     subfolderitems:
       - page: Discord
         url: /r/discord
+  - title: Misc.
+    subfolderitems:
+      - page: |
+          Funkin'
+        url: https://www.regulad.xyz/Funkin
