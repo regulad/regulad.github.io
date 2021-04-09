@@ -3,7 +3,7 @@ title: Regulad's Webzone
 author: regulad
 
 # Jekyll
-remote_theme: regulad/crust-tastic@v3.1
+remote_theme: regulad/crust-tastic@v4.0
 
 # Plugins
 plugins:
@@ -12,13 +12,17 @@ plugins:
 
 # crust-tastic
 crust_tastic:
-  favicon: /assets/favicon # Controls the favicon of the webpage. If you would like to use a custom path, substitute truthy/falsey with /path/to/favicon, otherwise it will use the root of the site.
-  gtag: G-YN9EE1LSN6 # Controls site gtag
+  favicon: /assets/favicon
+  addons:
+    gtag: G-YN9EE1LSN6
+    pin_header: true
+    jump_to_top: true
+    header_menu:
+      google_search: 9529ba9eddd925044
+      navigation: subfolder
+    google_translate: true
   header:
-    title: true # Controls Title
-    github_desc: true # Controls the GitHub description.
+    title: true
+    github_desc: true
   footer:
-    navigation: subfolder # See below.
-    github_link: true # Controls the GitHub link at the bottom of the page.
-    
-    google_translate: true # Controls google translate
+    github_link: true

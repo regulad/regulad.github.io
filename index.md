@@ -1,5 +1,5 @@
 # Welcome to the Pain Train!
-Hiya! I'm regulad, a student doing stupid things at any moment!
+Hello! I'm regulad. Pleased to see you. Take a look around, there's plenty to do!
 
 ![Banner](https://i.imgur.com/kIRjNAr.jpg)
 
