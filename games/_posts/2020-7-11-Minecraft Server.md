@@ -12,7 +12,8 @@ This is my vanilla-ish SMP. Not too many gameplay-altering plugins, but enough t
 
 ## Connect
 * Java: `smp.regulad.xyz`
-* Bedrock: `smp.regulad.xyz` (Port: `25584`)
+* Bedrock: `play.regulad.xyz` (Port: `25579`)
+(You can also connect via `play.regulad.xyz` port `25575` if you want to use GeyserConnect)
 
 You'll need to add yourself to [my Discord server](/r/discord) to link your account and join.
 
@@ -20,8 +21,8 @@ You'll need to add yourself to [my Discord server](/r/discord) to link your acco
 
 ## Dynmap
 
-{% include elements/iframe.html src="http://smp.regulad.xyz:8078/" %}
+{% include elements/iframe.html src="http://play.regulad.xyz:25580/" %}
 
 ## Plan
 
-{% include elements/iframe.html src="http://smp.regulad.xyz:8061/" %}
+{% include elements/iframe.html src="http://play.regulad.xyz:25581/" %}
