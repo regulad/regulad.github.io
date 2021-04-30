@@ -13,7 +13,6 @@ This is my vanilla-ish SMP. Not too many gameplay-altering plugins, but enough t
 ## Connect
 * Java: `smp.regulad.xyz`
 * Bedrock: `play.regulad.xyz` (Port: `25579`)
-(You can also connect via `play.regulad.xyz` port `25575` if you want to use GeyserConnect)
 
 You'll need to add yourself to [my Discord server](/r/discord) to link your account and join.
 
