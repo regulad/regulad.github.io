@@ -3,11 +3,13 @@
 * Specs:
   * Corsair Carbide 200R
   * EVGA 550 B3
-  * Ryzen 3 3200G
+  * Ryzen 5 2600
+  * EVGA GeForce 1650 Super
   * AMD Wraith Stealth
   * ROG Strix B450-F Gaming
-  * 1x8GB DDR4-3000 G.Skill Aegis
+  * 2x8GB DDR4-3000 Corsair Memory
 * Storage:
   * An SSD I literally picked out of the garbage (128gb)
 * Software:
-  * Ubuntu 20.04
+  * Ubuntu Server 20.04.2 LTS
+    * Docker 20.10.6

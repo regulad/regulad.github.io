@@ -11,10 +11,10 @@ This is my vanilla-ish server network. Not too many gameplay-altering plugins, b
 {% include elements/integrations/namemcserver.html server="play.regulad.xyz" %}
 
 ## Connect
-* Java:
-  * SMP: `smp.play.regulad.xyz` (or `play.regulad.xyz`)
+* Java: `play.regulad.xyz`
+  * SMP: `smp.play.regulad.xyz`
   * CMP: `cmp.play.regulad.xyz`
-* Bedrock: `play.regulad.xyz` (Port: `25575`)
+* Bedrock: `play.regulad.xyz` (don't change port, server has `19132`)
 
 You can also switch servers using `/server smp/cmp`
 
@@ -24,8 +24,8 @@ You'll need to add yourself to [my Discord server](/r/discord) to link your acco
 
 ## Dynmap (SMP)
 
-{% include elements/iframe.html src="http://play.regulad.xyz:25580/" %}
+{% include elements/iframe.html src="http://local.play.regulad.xyz:25580/" %}
 
 ## Plan
 
-{% include elements/iframe.html src="http://play.regulad.xyz:25582/" %}
+{% include elements/iframe.html src="http://play.regulad.xyz:8123/" %}

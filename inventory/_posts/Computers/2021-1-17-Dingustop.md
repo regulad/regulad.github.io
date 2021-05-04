@@ -9,4 +9,4 @@
 * Storage:
   * Crucial MX500 w/Heatsink and mSATA adapter
 * Software:
-  * Windows 10 Home 20H2
+  * Windows 10 Home 20H1

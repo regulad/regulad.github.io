@@ -1,3 +1,3 @@
 # Stuff I own
-Here is a record of some shiz I own and what is inside of them.
+Take a long look at the trash I own.
 {% include elements/posts/category.html category="inventory" header="Entries" excerpt="" %}
