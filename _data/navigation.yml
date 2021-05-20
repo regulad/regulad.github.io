@@ -20,6 +20,8 @@ entries:
         url: /minecraft-writeups
       - page: Inventory
         url: /inventory
+      - page: Projects
+        url: /projects
   - title: Redirects
     subfolderitems:
       - page: Discord

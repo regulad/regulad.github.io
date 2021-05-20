@@ -1,3 +1,7 @@
+---
+redirect_from: /portfolio
+---
+
 # Projects
 
 This page is a list of projects I currently have ongoing/completed.
