@@ -3,24 +3,16 @@ title: Regulad's Webzone
 author: regulad
 
 # Jekyll
-remote_theme: regulad/crust-tastic@main
+remote_theme: regulad/crust-tastic
 
 # Plugins
 plugins:
   - github-pages
   - jekyll-redirect-from
 
-# crust-tastic
 crust_tastic:
   favicon: /assets/favicon
-  addons:
-    gtag: G-YN9EE1LSN6
-    pin_header: true
-    jump_to_top: true
-    header_menu:
-      google_search: 9529ba9eddd925044
-      navigation: subfolder
-    google_translate: true
-  header:
-    title: true
-    github_desc: true
+  gtag: G-YN9EE1LSN6
+  header_menu:
+    navigation: subfolder
+    google_search: 9529ba9eddd925044
