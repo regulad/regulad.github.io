@@ -6,5 +6,5 @@ redirect_from: /portfolio
 
 This page is a list of projects I currently have ongoing/completed.
 
-{% include elements/posts/category.html category="projects" header="Entries" %}
+{% include elements/posts/category.html category="projects" header="Entries" excerpt="" %}
  
