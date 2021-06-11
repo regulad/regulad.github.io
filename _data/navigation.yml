@@ -10,6 +10,10 @@ entries:
         url: /donate
       - page: Games
         url: /games
+  - title: Curiosities
+    subfolderitems:
+      - page: Shitpost Archive
+        url: https://www.regulad.xyz/ShitpostStorageSystem/
   - title: Collections
     subfolderitems:
       - page: Archive
