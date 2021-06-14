@@ -12,8 +12,8 @@ entries:
         url: /games
   - title: Curiosities
     subfolderitems:
-      - page: Nothing!
-        url: /
+      - page: Jenkins
+        url: https://ci.local.regulad.xyz/
   - title: Collections
     subfolderitems:
       - page: Archive
