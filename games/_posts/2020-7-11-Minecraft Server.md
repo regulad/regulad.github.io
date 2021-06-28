@@ -11,12 +11,12 @@ This is my vanilla-ish server network. Not too many gameplay-altering plugins, b
 {% include elements/integrations/namemcserver.html server="play.regulad.xyz" %}
 
 ## Connect
-* Java: `play.regulad.xyz`
-  * SMP: `smp.play.regulad.xyz`
-  * CMP: `cmp.play.regulad.xyz`
-* Bedrock: `play.regulad.xyz` (don't change port, server has `19132`)
+* Java: `smp.play.regulad.xyz`
+* Bedrock: `play.regulad.xyz`
 
-You can also switch servers using `/server smp/cmp`
+Bedrock players will encounter a GeyserConnect proxy. The server is located within the Geyser section. You can connect to your own server from here.
+
+Java players can also utilize a VIAaaS instance hosted at `play.regulad.xyz`, with the webserver located at https://viaaas.play.regulad.xyz/
 
 You'll need to add yourself to [my Discord server](/r/discord) to link your account and join.
 
@@ -24,8 +24,8 @@ You'll need to add yourself to [my Discord server](/r/discord) to link your acco
 
 ## Dynmap (SMP)
 
-{% include elements/iframe.html src="http://local.play.regulad.xyz:25580/" %}
+{% include elements/iframe.html src="https://dynmap.play.regulad.xyz/" %}
 
 ## Plan
 
-{% include elements/iframe.html src="http://play.regulad.xyz:8123/" %}
+{% include elements/iframe.html src="https://plan.play.regulad.xyz/" %}
