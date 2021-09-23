@@ -9,7 +9,7 @@ remote_theme: regulad/crust-tastic
 plugins:
   - github-pages
   - jekyll-redirect-from
-  - jekyll-seo
+  - jekyll-seo-tag
 
 crust_tastic:
   favicon: /assets/favicon
