@@ -4,7 +4,7 @@
   * Corsair Carbide 200R
   * EVGA 550 B3
   * Ryzen 5 2600
-  * EVGA GeForce 1650 Super
+  * ZOTAC GeForce GT 710 2GB
   * AMD Wraith Stealth
   * ROG Strix B450-F Gaming
   * 2x8GB DDR4-3000 Corsair Memory
