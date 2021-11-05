@@ -8,7 +8,7 @@ redirect_from:
 ## About
 This is my vanilla-ish server network. Not too many gameplay-altering plugins, but enough to have fun.
 
-{% include elements/integrations/namemcserver.html server="play.regulad.xyz" %}
+{% include elements/integrations/namemcserver.html server="smp.play.regulad.xyz" %}
 
 ## Connect
 * Java: `smp.play.regulad.xyz`
