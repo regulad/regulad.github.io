@@ -9,10 +9,12 @@ remote_theme: regulad/crust-tastic
 plugins:
   - github-pages
   - jekyll-redirect-from
+  - jekyll-seo-tag
 
 crust_tastic:
   favicon: /assets/favicon
   gtag: G-YN9EE1LSN6
+  gads: ca-pub-2760094985301628
   header_menu:
     navigation: subfolder
     google_search: 9529ba9eddd925044
