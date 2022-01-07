@@ -1,6 +1,6 @@
 # Welcome to the Pain Train!
 
-Hi there. I'm Parker Wahle, a 15 year old student who does Computer Science in their free time. Welcome to my webzone! 
+Hi there. I'm Parker Wahle, a student who does Computer Science in their free time. Welcome to my webzone! 
 
 ![Banner](https://i.imgur.com/kIRjNAr.jpg)
 
