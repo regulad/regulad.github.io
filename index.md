@@ -1,10 +1,7 @@
-# Welcome to the Pain Train!
+"touch grass"
 
-Hi there. I'm Parker Wahle, a student who does Computer Science in their free time. Welcome to my webzone! 
+i CANT
 
-![Banner](https://i.imgur.com/kIRjNAr.jpg)
+i EATED it ALL
 
-## Most Recent Posts
-{% include elements/posts/categoryless-limit10.html %}
-
-###### psst... There is a secret on this website. In that secret, there is another one! Get looking...
+![image](/assets/A9D45AC4-C347-44A0-9DFD-12C5451AEF1C.jpeg)
