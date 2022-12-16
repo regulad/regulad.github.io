@@ -1,5 +1,6 @@
 import splashes from "./splashes.json";
 import React, {ReactNode} from "react";
+import "./SplashText.css";
 
 interface SplashTextProps {
 
@@ -16,7 +17,6 @@ export default class SplashText extends React.Component<SplashTextProps, SplashT
             splash: SplashText.getSplash(),
         }
     }
-
     setNewSplash(): void {
         this.setState({splash: SplashText.getSplash()});
     }
@@ -27,7 +27,7 @@ export default class SplashText extends React.Component<SplashTextProps, SplashT
 
     render(): ReactNode {
         return (
-            <p onClick={this.setNewSplash}>
+            <p className={"Splash-text"} onClick={() => this.setNewSplash()}>
                 {this.state.splash}
             </p>
         );

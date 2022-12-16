@@ -1,42 +1,7 @@
 /* Main classes */
 
-.Main-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: space-between;
-}
-
 .Main-body {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-/* Items */
-
-.Horizontal-box {
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    margin: 0;
-    padding: 0;
-    margin-block-start: 0.67em; /* Not dissimilar to a <p> tag, but better? */
-    margin-block-end: 0.67em;
-}
-
-.Title {
-    font-size: xx-large;
-    font-weight: bold;
-    font-style: italic;
-    margin-block-start: 0.5em;
-    margin-block-end: 0.5em;
-}
-
-.Subtitle {
-    font-size: small;
-    font-style: italic;
-    color: dimgray;
-    margin-block-start: 0.5em;
-    margin-block-end: 0.5em;
 }
