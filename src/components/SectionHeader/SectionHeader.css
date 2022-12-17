@@ -1,0 +1,17 @@
+.Section-header-line {
+    display: inline;
+    inline-size: 0;
+
+    position: relative;
+    text-align: right;
+    text-decoration-line: underline;
+
+    top: inherit;
+    bottom: inherit;
+    right: inherit;
+    left: -3ch;
+}
+
+.Section-header-span {
+    margin-inline-end: -1.33ch; /* Hacky as all shit! But, it does work. */
+}

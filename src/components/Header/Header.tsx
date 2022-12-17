@@ -15,7 +15,7 @@ export default class Header extends React.Component<HeaderProps, HeaderState> {
     constructor(props: Readonly<{}>) {
         super(props);
         this.state = {
-            shouldStick: true,
+            shouldStick: false,
         }
     }
 
@@ -24,21 +24,20 @@ export default class Header extends React.Component<HeaderProps, HeaderState> {
             <header className={`Header ${this.state.shouldStick ? "Sticky" : ""}`}>
                 <div className={"Header-inside"}>
                     <div className={"Header-content"}>
-                        <div className={"Title-box"}>
+                        <span className={"Title-box"}>
                             <h1 className={"Title"}>Regulad's Mouse House</h1>
                             <SplashText></SplashText>
-                        </div>
+                        </span>
                         <NavDropdown></NavDropdown>
                     </div>
                     <hr className={"Break"}></hr>
                 </div>
                 <div className={`Header-outside ${!this.state.shouldStick ? "Sticky" : ""}`}>
-                    {/* TODO: Fix this shooting up to the top of the screen when it is not scrolled */}
                     <div
                         className={"Fixed-right-inside Sticky-toggle"}
                         onClick={() => this.setState({shouldStick: !this.state.shouldStick})}
                     >
-                        📌 {/* TODO: icon? */}
+                        📌
                     </div>
                 </div>
             </header>

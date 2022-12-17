@@ -1,0 +1,20 @@
+.Footer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    /* should be controlled by media */
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.Gravatar {
+    width: 10ch;
+    height: 10ch;
+    border-radius: 30%;
+    margin-right: 10px;
+}
+
+.Footer-text {
+    font-style: italic;
+    color: dimgray;
+}

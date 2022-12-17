@@ -52,7 +52,7 @@
     border-left: 1px solid darkgrey;
     border-bottom: 1px solid darkgrey;
     border-bottom-left-radius: 7px;
-    background-color: white;
+    background-color: var(--background-color);
     box-shadow:  20px 20px 60px #bebebe,
                  -20px -20px 60px #ffffff;
 }

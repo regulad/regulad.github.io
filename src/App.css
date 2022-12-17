@@ -1,7 +1,7 @@
 /* Main classes */
 
 .Main-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    /* should be controlled by media */
+    margin-left: 4em;
+    margin-right: 4em;
 }
