@@ -1,6 +1,5 @@
 import React from "react";
 import SplashText from "../SplashText/SplashText";
-import NavDropdown from "../NavDropdown/NavDropdown";
 import "./Header.css";
 
 interface HeaderProps {
@@ -28,7 +27,6 @@ export default class Header extends React.Component<HeaderProps, HeaderState> {
                             <h1 className={"Title"}>Regulad's Mouse House</h1>
                             <SplashText></SplashText>
                         </span>
-                        <NavDropdown></NavDropdown>
                     </div>
                     <hr className={"Break"}></hr>
                 </div>

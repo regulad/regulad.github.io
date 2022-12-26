@@ -12,6 +12,10 @@
     left: -3ch;
 }
 
+.Section-header-line:hover {
+    text-decoration-line: blink;
+}
+
 .Section-header-span {
     margin-inline-end: -1.33ch; /* Hacky as all shit! But, it does work. */
 }

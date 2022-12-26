@@ -24,6 +24,7 @@ export default class SectionHeader extends React.Component<SectionHeaderProps, S
                                     navigator.clipboard.writeText(`${window.location.href}#${this.props.id}`)
                                     .then(() => alert(`Copied ${window.location.href}#${this.props.id} to clipboard`))
                                 }
+                                // Definitely a better way to do this with refs
                             }
                         >
                             .{pathSep}

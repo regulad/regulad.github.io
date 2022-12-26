@@ -16,5 +16,5 @@
 
 .Footer-text {
     font-style: italic;
-    color: dimgray;
+    color: var(--subtitle-text);
 }

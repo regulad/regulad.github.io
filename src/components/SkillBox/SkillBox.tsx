@@ -2,10 +2,11 @@ import React from "react";
 import "./SkillBox.css";
 
 interface SkillBoxProps {
-    icon: string | undefined;
+    icon?: string | null;
     title: string;
+    link?: string | null;
     id: string;
-    children: React.ReactNode;
+    children: React.ReactNode | React.ReactNode[] | null;
 }
 
 interface SkillBoxState {
@@ -24,11 +25,18 @@ export default class SkillBox extends React.Component<SkillBoxProps, SkillBoxSta
                                 src={this.props.icon}
                                 alt={`icon of ${this.props.title}`}
                             ></img>
-                            : <></>}
-                    <h4 className={"Skill-title"}>{this.props.title}</h4>
+                            : <></>
+                    }
+                    {
+                        !!this.props.link
+                            ? <a href={this.props.link}>
+                                <h4 className={"Skill-title"}>{this.props.title}</h4>
+                            </a>
+                            : <h4 className={"Skill-title"}>{this.props.title}</h4>
+                    }
                 </div>
                 <div className={"Skill-description"}>
-                    {this.props.children}
+                    {!!this.props.children ? this.props.children : <></>}
                 </div>
             </div>
         );

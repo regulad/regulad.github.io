@@ -1,0 +1,20 @@
+.Repository-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0.2em;
+}
+
+.Repository-footer-title {
+    font-weight: bold;
+}
+
+.Repository-language {
+    font-weight: bold;
+}
+
+.Repository-description {
+    padding-left: 1ch;
+    padding-right: 1ch;
+}

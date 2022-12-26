@@ -1,9 +1,10 @@
 import SkillBox from "../SkillBox/SkillBox";
 import React from "react";
 import "./SkillGrid.css";
+import AccountBox from "../AccountBox/AccountBox";
 
 interface SkillGridProps {
-    children: React.ReactElement<SkillBox>[] | React.ReactElement<SkillBox>;
+    children: React.ReactElement<SkillBox | AccountBox>[] | React.ReactElement<SkillBox | AccountBox>;
 }
 
 interface SkillGridState {

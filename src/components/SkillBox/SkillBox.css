@@ -1,7 +1,7 @@
 .Skill-box {
     padding: 0.5em;
     margin: 0.5em;
-    border: 1px solid darkgrey;
+    border: 1px solid var(--border-color);
     border-radius: 7px;
     background-color: var(--background-color);
 
@@ -11,14 +11,16 @@
 
     box-shadow: 0 0 0 0;
 
-    transition-property: top, left;
+    transition-property: top, left, background-color;
     transition-duration: 0.6s;
     transition-timing-function: ease;
 }
 
 .Skill-box:hover {
-    top: -1ch;
-    left: 1ch;
+    top: -0.5ch;
+    left: 0.5ch;
+
+    background: var(--background-highlight);
 }
 
 .Skill-titles {
