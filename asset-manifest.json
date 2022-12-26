@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.658c7210.css",
-    "main.js": "/static/js/main.3384fb83.js",
+    "main.css": "/static/css/main.44519cca.css",
+    "main.js": "/static/js/main.5c6cc2e6.js",
     "static/js/787.4a7970aa.chunk.js": "/static/js/787.4a7970aa.chunk.js",
+    "static/media/Python-logo-notext.svg": "/static/media/Python-logo-notext.875a8c5049519c23cd65355391162202.svg",
+    "static/media/Typescript_logo_2020.svg": "/static/media/Typescript_logo_2020.9ad81d2e09b9cd2265cdb1e55d83a709.svg",
+    "static/media/java-14.svg": "/static/media/java-14.2c5d38eae4a3a352dd64b4fe904a14dd.svg",
+    "static/media/github-mark.svg": "/static/media/github-mark.6fa18895f6e6c7772cab7049f7e05f59.svg",
+    "static/media/Unofficial_JavaScript_logo_2.svg": "/static/media/Unofficial_JavaScript_logo_2.61c1fa6b2ee4eb8ce8d0e0c25ab67854.svg",
     "index.html": "/index.html",
-    "main.658c7210.css.map": "/static/css/main.658c7210.css.map",
-    "main.3384fb83.js.map": "/static/js/main.3384fb83.js.map",
+    "main.44519cca.css.map": "/static/css/main.44519cca.css.map",
+    "main.5c6cc2e6.js.map": "/static/js/main.5c6cc2e6.js.map",
     "787.4a7970aa.chunk.js.map": "/static/js/787.4a7970aa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.658c7210.css",
-    "static/js/main.3384fb83.js"
+    "static/css/main.44519cca.css",
+    "static/js/main.5c6cc2e6.js"
   ]
 }
