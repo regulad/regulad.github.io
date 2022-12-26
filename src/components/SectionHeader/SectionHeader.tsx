@@ -12,20 +12,14 @@ interface SectionHeaderState {
 
 export default class SectionHeader extends React.Component<SectionHeaderProps, SectionHeaderState> {
     render() {
-        const pathSep: string = window.navigator.userAgent.indexOf("Windows") != -1 ? "\\" : "/";
+        const pathSep: string = window.navigator.userAgent.indexOf("Windows") !== -1 ? "\\" : "/";
         return (
             <div className={"Section-header"} id={this.props.id}>
                 <h2 className={"Section-header-text"}>
                     <span className={"Section-header-span"}>
                         <a
                             className={"Section-header-line"}
-                            onClick={
-                                () => {
-                                    navigator.clipboard.writeText(`${window.location.href}#${this.props.id}`)
-                                    .then(() => alert(`Copied ${window.location.href}#${this.props.id} to clipboard`))
-                                }
-                                // Definitely a better way to do this with refs
-                            }
+                            href={"#" + this.props.id}
                         >
                             .{pathSep}
                         </a>

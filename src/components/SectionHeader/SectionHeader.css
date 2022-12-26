@@ -4,16 +4,11 @@
 
     position: relative;
     text-align: right;
-    text-decoration-line: underline;
 
     top: inherit;
     bottom: inherit;
     right: inherit;
     left: -3ch;
-}
-
-.Section-header-line:hover {
-    text-decoration-line: blink;
 }
 
 .Section-header-span {
