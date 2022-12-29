@@ -1,7 +1,229 @@
 /* Main classes */
 
 .Main-body {
-    /* should be controlled by media */
-    margin-left: 4em;
-    margin-right: 4em;
+  /* should be controlled by media */
+  margin-left: 4em;
+  margin-right: 4em;
+}
+
+/* Subtitle */
+
+.Splash-text {
+  font-size: small;
+  font-style: italic;
+  color: var(--subtitle-text);
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}
+
+/* Skills */
+
+.Skill-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Skill-box {
+  padding: 0.5em;
+  margin: 0.5em;
+  border: 1px solid var(--border-color);
+  border-radius: 7px;
+  background-color: var(--background-color);
+
+  position: relative;
+  top: 0;
+  left: 0;
+
+  box-shadow: 0 0 0 0;
+
+  transition-property: top, left, background-color, box-shadow, transform;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+}
+
+.Skill-box:hover {
+  top: -0.5ch;
+  left: 0.5ch;
+
+  background: var(--background-highlight);
+
+  box-shadow: 0 5px 10px var(--shadow-color);
+
+  -ms-transform: scale(1.03125, 1.03125);
+  transform: scale(1.03125, 1.03125);
+}
+
+.Skill-titles {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.Skill-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.Skill-icon {
+  width: 1.5em;
+  margin: 0.3em;
+}
+
+.Skill-description p {
+  margin: 0.2em;
+}
+
+.Skill-description ul {
+  margin: 0.2em;
+}
+
+.Account-icon {
+  width: 1.5em;
+
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+
+.Header {
+  margin-block-end: 1em;
+}
+
+.Header-content {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.Title-box {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin: 0;
+  padding: 0;
+  margin-block-start: 0.67em; /* Not dissimilar to a <p> tag, but better? */
+  margin-block-end: 0.67em;
+  margin-inline-end: 2ch;
+}
+
+@media (max-width: 600px) {
+  .Title-box {
+    flex-direction: column;
+    align-items: start;
+  }
+}
+
+.Title {
+  font-size: xx-large;
+  font-weight: bold;
+  font-style: italic;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-end: 1ch;
+}
+
+.Sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.Fixed-right-inside {
+  position: fixed;
+  right: 0;
+  top: inherit;
+  bottom: inherit;
+  left: inherit;
+}
+
+.Sticky-toggle {
+  border-left: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+  border-bottom-left-radius: 7px;
+  background-color: var(--background-color);
+  box-shadow: 20px 20px 60px var(--shadow-color),
+  -20px -20px 60px var(--text-color);
+}
+
+.Break {
+  margin: 0 0 0 0;
+  color: var(--border-color);
+}
+
+.Header-inside {
+  background: var(--background-color);
+  box-shadow: 10px 10px 20px var(--shadow-color),
+  -10px -10px 20px var(--text-color);
+}
+
+/* Footer */
+
+.Footer {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  /* should be controlled by media */
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.Gravatar {
+  width: 10ch;
+  height: 10ch;
+  border-radius: 30%;
+  margin-right: 10px;
+}
+
+.Footer-text {
+  font-style: italic;
+  color: var(--subtitle-text);
+}
+
+/* GitHub Skill Boxes */
+
+.Repository-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 0.2em;
+}
+
+.Repository-footer-title {
+  font-weight: bold;
+}
+
+.Repository-language {
+  font-weight: bold;
+}
+
+.Repository-description {
+  padding-left: 1ch;
+  padding-right: 1ch;
+}
+
+/* Section headers */
+
+.Section-header-line {
+  display: inline;
+  inline-size: 0;
+
+  position: relative;
+  text-align: right;
+
+  top: inherit;
+  bottom: inherit;
+  right: inherit;
+  left: -3ch;
+}
+
+.Section-header-span {
+  margin-inline-end: -1.33ch; /* Hacky as all shit! But, it does work. */
 }
