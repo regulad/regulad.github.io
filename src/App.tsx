@@ -45,6 +45,7 @@ export default function App(): JSX.Element {
               <p>Completed tutorials:</p>
               <ul>
                 <li><a href={"https://reactrouter.com/en/main/start/tutorial"}>React Router Tutorial</a></li>
+                <li><a href={"https://firebase.google.com/codelabs/firebase-web#0"}>Firebase web codelab</a></li>
               </ul>
             </SkillBox>
             <SkillBox icon={typescriptLogo} title={"TypeScript"} id={"TypeScript-skill"}>
