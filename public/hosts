@@ -1,0 +1,2 @@
+# This is an empty allowlist for uBlock/Pi-Hole. I use it to redirect all DNS requests from my TP-Link router to null, because it is creepy and makes a ton of random requests.
+0.0.0.0 example.com
